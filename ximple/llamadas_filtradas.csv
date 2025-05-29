@@ -1,0 +1,816 @@
+ID Ally,Saldo vencido,Días de atraso,Campo 2,Segundos,Voz,Dia Semana,Rango Hora,Llamada_Contestada,Promesa_de_Pago,Intensidad,Prompt
+433433335631,2380.34,77,Vencido,11.0,Santiago,6. Sabado,3. Tarde,1.0,0.0,Normal,Alto
+433433339339,1108.86,70,Vencido,33.0,Santiago,6. Sabado,3. Tarde,1.0,0.0,Normal,Alto
+433433338898,1293.68,56,Vencido,4.0,Santiago,6. Sabado,3. Tarde,1.0,0.0,Normal,Alto
+433433333319,23764.61,126,Vencida_Agencia,4.0,Santiago,6. Sabado,3. Tarde,1.0,0.0,Normal,Alto
+433433333969,2777.58,83,Vencida_Agencia,26.0,Santiago,6. Sabado,3. Tarde,1.0,0.0,Normal,Alto
+433433334660,13110.86,66,Vencida_Agencia,4.0,Santiago,6. Sabado,3. Tarde,1.0,0.0,Normal,Alto
+433433334755,4166.4,126,Vencida_Agencia,12.0,Santiago,6. Sabado,3. Tarde,1.0,0.0,Normal,Alto
+433433334975,3934.48,126,Vencida_Agencia,10.0,Santiago,6. Sabado,3. Tarde,1.0,0.0,Normal,Alto
+433433334044,5901.96,111,Vencida_Agencia,16.0,Santiago,6. Sabado,3. Tarde,1.0,0.0,Normal,Alto
+433433335478,4080.91,96,Vencida_Agencia,6.0,Santiago,6. Sabado,3. Tarde,1.0,0.0,Normal,Alto
+433433335723,2539.53,83,Vencida_Agencia,5.0,Santiago,6. Sabado,3. Tarde,1.0,0.0,Normal,Alto
+433433338693,3010.27,77,Vencido,3.0,Santiago,6. Sabado,3. Tarde,1.0,0.0,Normal,Alto
+433433335488,3403.24,64,Vencido,2.0,Santiago,6. Sabado,3. Tarde,1.0,0.0,Normal,Alto
+433433333974,2900.6,46,Vencido,,Santiago,6. Sabado,3. Tarde,1.0,0.0,Normal,Alto
+433433335260,1467.06,52,Vencida_Agencia,5.0,Santiago,6. Sabado,3. Tarde,1.0,0.0,Normal,Alto
+433433333319,23764.61,126,Vencida_Agencia,19.0,Santiago,6. Sabado,3. Tarde,1.0,0.0,Normal,Alto
+433433333552,4163.46,126,Vencida_Agencia,25.0,Santiago,6. Sabado,3. Tarde,1.0,0.0,Normal,Alto
+433433337514,2930.68,87,Vencida_Agencia,4.0,Santiago,6. Sabado,3. Tarde,1.0,0.0,Normal,Alto
+433433335190,3633.6,83,Vencida_Agencia,21.0,Santiago,6. Sabado,3. Tarde,1.0,0.0,Normal,Alto
+433433334660,13110.86,66,Vencida_Agencia,5.0,Santiago,6. Sabado,3. Tarde,1.0,0.0,Normal,Alto
+433433334692,3934.48,126,Vencida_Agencia,6.0,Santiago,6. Sabado,3. Tarde,1.0,0.0,Normal,Alto
+433433334083,3934.6,126,Vencida_Agencia,2.0,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433334110,3934.48,126,Vencida_Agencia,11.0,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433335364,2083.2,126,Vencida_Agencia,13.0,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433335723,2539.53,83,Vencida_Agencia,10.0,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433338693,3010.27,77,Vencido,,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433339339,1108.86,70,Vencido,16.0,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433335488,3403.24,64,Vencido,1.0,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433338674,2458.22,46,Vencido,12.0,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433333387,16592.77,112,Vencida_Agencia,4.0,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433336101,915.84,87,Vencida_Agencia,12.0,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433335190,3633.6,83,Vencida_Agencia,20.0,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433338999,4725.62,63,Vencida_Agencia,,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433338487,1293.68,80,Vencida_Agencia,5.0,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433334389,3797.38,126,Vencida_Agencia,36.0,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433334735,4449.17,101,Vencida_Agencia,16.0,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433334755,4166.4,126,Vencida_Agencia,16.0,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433334975,3934.48,126,Vencida_Agencia,6.0,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433334069,5993.09,97,Vencida_Agencia,3.0,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433334083,3934.6,126,Vencida_Agencia,4.0,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433338061,2028.04,28,Vencido,1.0,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433335763,1831.68,111,Vencida_Agencia,,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433337651,1465.32,87,Vencida_Agencia,28.0,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433335190,3633.6,83,Vencida_Agencia,24.0,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433337085,924.0,73,Vencida_Agencia,2.0,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433337326,4068.61,73,Vencida_Agencia,11.0,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433337272,921.46,66,Vencida_Agencia,5.0,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433338083,397.31,7,Reactivo,235.0,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Default
+433433330686,281.64,7,Reactivo,13.0,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Default
+433433336098,267.2,4,Reactivo,33.0,Santiago,6. Sabado,2. Mediodia,1.0,1.0,Normal,Default
+433433339985,2381.0,16,Retrasado,5.0,Santiago,6. Sabado,2. Mediodia,1.0,0.0,Normal,Default
+433433336496,2671.87,80,Vencida_Agencia,9.0,Santiago,5. Viernes,4. Noche,1.0,0.0,Intenso-5,Default
+433433338061,2028.04,28,Vencido,,Santiago,5. Viernes,4. Noche,1.0,0.0,Intenso-5,Default
+433433333387,16592.77,112,Vencida_Agencia,7.0,Santiago,5. Viernes,4. Noche,1.0,0.0,Intenso-5,Default
+433433338693,3010.27,77,Vencido,22.0,Santiago,5. Viernes,4. Noche,1.0,0.0,Intenso-5,Default
+433433339478,2052.76,46,Vencido,14.0,Santiago,5. Viernes,4. Noche,1.0,0.0,Intenso-5,Default
+433433333907,3932.96,84,Vencida_Agencia,12.0,Santiago,5. Viernes,4. Noche,1.0,0.0,Intenso-5,Default
+433433339339,1108.86,70,Vencido,1.0,Santiago,5. Viernes,4. Noche,1.0,0.0,Intenso-5,Default
+433433337085,924.0,73,Vencida_Agencia,2.0,Santiago,5. Viernes,4. Noche,1.0,0.0,Intenso-5,Default
+433433338397,1478.48,73,Vencida_Agencia,5.0,Santiago,5. Viernes,4. Noche,1.0,0.0,Intenso-5,Default
+433433338698,3850.67,66,Vencida_Agencia,4.0,Santiago,5. Viernes,4. Noche,1.0,0.0,Intenso-5,Default
+433433339145,1693.25,29,Vencido,16.0,Santiago,5. Viernes,4. Noche,1.0,0.0,Intenso-5,Default
+433433338674,2458.22,46,Vencido,12.0,Santiago,5. Viernes,4. Noche,1.0,0.0,Intenso-5,Default
+433433334774,4166.4,111,Vencida_Agencia,7.0,Santiago,5. Viernes,4. Noche,1.0,0.0,Intenso-5,Default
+433433334069,5993.09,97,Vencida_Agencia,,Santiago,5. Viernes,4. Noche,1.0,0.0,Intenso-5,Default
+433433335478,4080.91,96,Vencida_Agencia,6.0,Santiago,5. Viernes,4. Noche,1.0,0.0,Intenso-5,Default
+433433335538,1916.44,66,Vencida_Agencia,13.0,Santiago,5. Viernes,4. Noche,1.0,0.0,Intenso-5,Default
+433433335763,1831.68,111,Vencida_Agencia,1.0,Santiago,5. Viernes,4. Noche,1.0,0.0,Intenso-5,Default
+433433335723,2539.53,83,Vencida_Agencia,4.0,Santiago,5. Viernes,4. Noche,1.0,0.0,Intenso-5,Default
+433433336496,2671.87,80,Vencida_Agencia,31.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Default
+433433338693,3010.27,77,Vencido,,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Default
+433433336964,2727.18,70,Vencida_Agencia,8.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Default
+433433334135,2907.03,73,Vencido,6.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Default
+433433337324,915.84,87,Vencida_Agencia,15.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Default
+433433337514,2930.68,87,Vencida_Agencia,42.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Default
+433433337085,924.0,73,Vencida_Agencia,2.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Default
+433433338487,1293.68,80,Vencida_Agencia,8.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Default
+433433334490,531.59,97,Vencida_Agencia,12.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Alto
+433433334554,2843.05,70,Vencida_Agencia,14.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Alto
+433433334637,3898.23,97,Vencida_Agencia,81.0,Santiago,5. Viernes,3. Tarde,1.0,1.0,Intenso-5,Alto
+433433334660,13110.86,66,Vencida_Agencia,4.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Alto
+433433334716,4080.91,96,Vencida_Agencia,39.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Alto
+433433334975,3934.48,126,Vencida_Agencia,0.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Alto
+433433334069,5993.09,97,Vencida_Agencia,18.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Alto
+433433335538,1916.44,66,Vencida_Agencia,5.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Alto
+433433335723,2539.53,83,Vencida_Agencia,16.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Alto
+433433338645,4259.96,77,Vencido,4.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Default
+433433338693,3010.27,77,Vencido,3.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Default
+433433337311,1006.48,35,Vencido,4.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Default
+433433339867,2813.55,63,Vencido,7.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Default
+433433337081,5458.66,56,Vencido,6.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Default
+433433337085,924.0,73,Vencida_Agencia,1.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Alto
+433433338397,1478.48,73,Vencida_Agencia,2.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Alto
+433433334490,531.59,97,Vencida_Agencia,48.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Alto
+433433338698,3850.67,66,Vencida_Agencia,6.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Alto
+433433338999,4725.62,63,Vencida_Agencia,2.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Alto
+433433334660,13110.86,66,Vencida_Agencia,6.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Alto
+433433334573,2240.53,11,Retrasado,3.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433334692,3934.48,126,Vencida_Agencia,13.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Alto
+433433338674,2458.22,46,Vencido,12.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Default
+433433334755,4166.4,126,Vencida_Agencia,12.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Alto
+433433334774,4166.4,111,Vencida_Agencia,12.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Alto
+433433339733,8800.41,60,Vencido,2.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Default
+433433338083,397.31,7,Reactivo,90.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433330651,392.14,4,Reactivo,5.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433330519,449.94,3,Reactivo,93.0,Santiago,5. Viernes,3. Tarde,1.0,1.0,Normal,Default
+433433334069,5993.09,97,Vencida_Agencia,48.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Alto
+433433335478,4080.91,96,Vencida_Agencia,6.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Alto
+433433335722,2477.8,83,Vencida_Agencia,43.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Alto
+433433338693,3010.27,77,Vencido,3.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Default
+433433336703,2551.27,87,Vencida_Agencia,6.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Alto
+433433339339,1108.86,70,Vencido,5.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Default
+433433337085,924.0,73,Vencida_Agencia,2.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Alto
+433433335488,3403.24,64,Vencido,3.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Default
+433433333974,2900.6,46,Vencido,,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Default
+433433338397,1478.48,73,Vencida_Agencia,2.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Alto
+433433338448,5932.04,80,Vencida_Agencia,135.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Alto
+433433338487,1293.68,80,Vencida_Agencia,15.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Alto
+433433333178,2106.62,29,Vencido,58.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Default
+433433338698,3850.67,66,Vencida_Agencia,16.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Intenso-5,Alto
+433433334573,2240.53,11,Retrasado,3.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433336859,1945.23,3,Reactivo,4.0,Santiago,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433330651,392.14,4,Reactivo,48.0,Santiago,5. Viernes,3. Tarde,1.0,1.0,Normal,Default
+433433336321,1728.32,66,Vencida_Agencia,14.0,Santiago,3. Miercoles,4. Noche,1.0,0.0,Normal,Alto
+433433337085,924.0,73,Vencida_Agencia,3.0,Santiago,3. Miercoles,4. Noche,1.0,0.0,Normal,Alto
+433433338487,1293.68,80,Vencida_Agencia,14.0,Santiago,3. Miercoles,4. Noche,1.0,0.0,Normal,Alto
+433433337311,1006.48,35,Vencido,14.0,Santiago,3. Miercoles,4. Noche,1.0,0.0,Intenso - 7,Default
+433433338999,4725.62,63,Vencida_Agencia,2.0,Santiago,3. Miercoles,4. Noche,1.0,0.0,Normal,Alto
+433433339776,2637.48,29,Vencido,12.0,Santiago,3. Miercoles,4. Noche,1.0,0.0,Intenso - 7,Default
+433433330496,456.72,29,Vencido,6.0,Santiago,3. Miercoles,4. Noche,1.0,0.0,Intenso - 7,Default
+433433338061,2028.04,28,Vencido,2.0,Santiago,3. Miercoles,4. Noche,1.0,0.0,Intenso - 7,Default
+433433338693,3010.27,77,Vencido,3.0,Santiago,3. Miercoles,3. Tarde,1.0,0.0,Intenso - 7,Default
+433433338674,2458.22,46,Vencido,12.0,Santiago,3. Miercoles,3. Tarde,1.0,0.0,Intenso - 7,Default
+433433338645,4259.96,77,Vencido,,Santiago,3. Miercoles,3. Tarde,1.0,0.0,Intenso - 7,Default
+433433338693,3010.27,77,Vencido,3.0,Santiago,3. Miercoles,3. Tarde,1.0,0.0,Intenso - 7,Default
+433433338898,1293.68,56,Vencido,6.0,Santiago,3. Miercoles,3. Tarde,1.0,0.0,Intenso - 7,Default
+433433335488,3403.24,64,Vencido,12.0,Santiago,3. Miercoles,3. Tarde,1.0,0.0,Intenso - 7,Default
+433433339145,1693.25,29,Vencido,13.0,Santiago,3. Miercoles,3. Tarde,1.0,0.0,Intenso - 7,Default
+433433334573,2240.53,11,Retrasado,23.0,Santiago,3. Miercoles,3. Tarde,1.0,0.0,Intenso,Default
+433433338886,887.74,7,Reactivo,77.0,Santiago,3. Miercoles,3. Tarde,1.0,0.0,Intenso,Default
+433433338645,4259.96,77,Vencido,2.0,Santiago,3. Miercoles,3. Tarde,1.0,0.0,Intenso - 7,Default
+433433339339,1108.86,70,Vencido,2.0,Santiago,3. Miercoles,3. Tarde,1.0,0.0,Intenso - 7,Default
+433433339776,2637.48,29,Vencido,13.0,Santiago,3. Miercoles,3. Tarde,1.0,0.0,Intenso - 7,Default
+433433338674,2458.22,46,Vencido,12.0,Santiago,3. Miercoles,3. Tarde,1.0,0.0,Intenso - 7,Default
+433433333178,2106.62,29,Vencido,83.0,Santiago,3. Miercoles,3. Tarde,1.0,0.0,Intenso - 7,Default
+433433338774,2118.47,29,Vencido,5.0,Santiago,3. Miercoles,3. Tarde,1.0,0.0,Intenso - 7,Default
+433433336666,762.42,16,Retrasado,8.0,Santiago,3. Miercoles,3. Tarde,1.0,0.0,Intenso,Default
+433433339985,2381.0,16,Retrasado,4.0,Santiago,3. Miercoles,3. Tarde,1.0,0.0,Intenso,Default
+433433338674,2458.22,46,Vencido,11.0,Santiago,3. Miercoles,3. Tarde,1.0,0.0,Intenso - 7,Default
+433433335284,3060.63,96,Vencida_Agencia,27.0,Santiago,2. Martes,4. Noche,1.0,0.0,Normal,Alto
+433433338061,2028.04,28,Vencido,3.0,Santiago,2. Martes,4. Noche,1.0,0.0,Normal,Default
+433433336964,2727.18,70,Vencida_Agencia,12.0,Santiago,2. Martes,4. Noche,1.0,0.0,Normal,Alto
+433433339339,1108.86,70,Vencido,4.0,Santiago,2. Martes,4. Noche,1.0,0.0,Normal,Default
+433433335488,3403.24,64,Vencido,7.0,Santiago,2. Martes,4. Noche,1.0,0.0,Normal,Default
+433433337085,924.0,73,Vencida_Agencia,3.0,Santiago,2. Martes,4. Noche,1.0,0.0,Normal,Alto
+433433338356,3667.55,66,Vencida_Agencia,,Santiago,2. Martes,4. Noche,1.0,0.0,Normal,Alto
+433433338397,1478.48,73,Vencida_Agencia,3.0,Santiago,2. Martes,4. Noche,1.0,0.0,Normal,Alto
+433433338340,4054.21,60,Vencido,,Santiago,2. Martes,4. Noche,1.0,0.0,Normal,Default
+433433338674,2458.22,46,Vencido,12.0,Santiago,2. Martes,4. Noche,1.0,0.0,Normal,Default
+433433338999,4725.62,63,Vencida_Agencia,,Santiago,2. Martes,4. Noche,1.0,0.0,Normal,Alto
+433433338061,2028.04,28,Vencido,,Santiago,2. Martes,4. Noche,1.0,0.0,Normal,Default
+433433339339,1108.86,70,Vencido,8.0,Santiago,2. Martes,4. Noche,1.0,0.0,Normal,Default
+433433338613,1485.82,46,Vencido,5.0,Santiago,2. Martes,4. Noche,1.0,0.0,Normal,Default
+433433338674,2458.22,46,Vencido,13.0,Santiago,2. Martes,4. Noche,1.0,0.0,Normal,Default
+433433335014,2875.4,83,Vencida_Agencia,4.0,Renato,1. Lunes,3. Tarde,1.0,0.0,Normal,Alto
+433433335121,5601.12,70,Vencida_Agencia,2.0,Renato,1. Lunes,3. Tarde,1.0,0.0,Normal,Alto
+433433336412,1769.51,74,Vencida_Agencia,68.0,Renato,1. Lunes,3. Tarde,1.0,0.0,Normal,Alto
+433433337326,4068.61,73,Vencida_Agencia,55.0,Renato,1. Lunes,3. Tarde,1.0,0.0,Normal,Alto
+433433337085,924.0,73,Vencida_Agencia,3.0,Renato,1. Lunes,3. Tarde,1.0,0.0,Normal,Alto
+433433338356,3667.55,66,Vencida_Agencia,13.0,Renato,1. Lunes,3. Tarde,1.0,0.0,Normal,Alto
+433433338083,397.31,7,Reactivo,104.0,Renato,1. Lunes,3. Tarde,1.0,1.0,Intenso,Default
+433433338125,667.85,16,Retrasado,4.0,Renato,1. Lunes,3. Tarde,1.0,0.0,Intenso,Default
+433433338061,2028.04,28,Vencido,,Renato,1. Lunes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433338693,3010.27,77,Vencido,3.0,Renato,1. Lunes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433334791,593.84,29,Vencido,64.0,Renato,1. Lunes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433338898,1293.68,56,Vencido,13.0,Renato,1. Lunes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433335488,3403.24,64,Vencido,4.0,Renato,1. Lunes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433333171,2116.01,46,Vencido,8.0,Renato,1. Lunes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433339776,2637.48,29,Vencido,12.0,Renato,1. Lunes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433338674,2458.22,46,Vencido,1.0,Renato,1. Lunes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433338520,39698.83,86,Vencido,14.0,Renato,1. Lunes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433339145,1693.25,29,Vencido,6.0,Renato,1. Lunes,3. Tarde,1.0,0.0,Intenso - 5,Default
+33433333651,3589.54,5,Vencido,41.0,Laura,1. Lunes,3. Tarde,1.0,0.0,Intenso - 5,Activacion
+33433333651,3589.54,5,Vencido,7.0,Laura,1. Lunes,3. Tarde,1.0,0.0,Intenso - 5,Activacion
+33433333651,3589.54,5,Vencido,139.0,Renato,1. Lunes,2. Mediodia,1.0,1.0,Intenso - 5,Alto
+433433336637,1441.76,23,Vencido,,,4. Jueves,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433338674,1386.14,23,Vencido,,,4. Jueves,4. Noche,1.0,0.0,Intenso - 5,Default
+433433338905,325.25,7,Reactivo,,,4. Jueves,4. Noche,1.0,0.0,Normal,Default
+433433339444,4416.97,37,Vencido,,,4. Jueves,1. Mañana,1.0,0.0,Intenso - 5,Default
+433433339444,4416.97,37,Vencido,,,4. Jueves,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433339444,4416.97,37,Vencido,,,4. Jueves,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433339720,346.44,6,Reactivo,,,4. Jueves,3. Tarde,1.0,0.0,Normal,Default
+433433339720,346.44,6,Reactivo,,,4. Jueves,4. Noche,1.0,1.0,Normal,Default
+433433339867,2137.16,40,Vencido,,,4. Jueves,3. Tarde,1.0,1.0,Intenso - 5,Default
+433433339867,2137.16,40,Vencido,,,4. Jueves,4. Noche,1.0,0.0,Intenso - 5,Default
+433433339818,1056.15,22,Vencido,,,4. Jueves,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433333596,453.0,6,Reactivo,,,5. Viernes,3. Tarde,1.0,1.0,Normal,Default
+433433334366,226.86,4,Reactivo,,,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433334021,204.33,1,Reactivo,,,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433336820,1338.47,3,Reactivo,,,5. Viernes,3. Tarde,1.0,1.0,Normal,Default
+433433336820,1338.47,3,Reactivo,,,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433336188,624.12,6,Reactivo,,,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433337659,515.98,6,Reactivo,,,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433337659,515.98,6,Reactivo,,,5. Viernes,3. Tarde,1.0,1.0,Normal,Default
+433433337868,1031.13,1,Reactivo,,,5. Viernes,3. Tarde,1.0,1.0,Normal,Default
+433433338591,715.42,1,Reactivo,,,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433338701,2288.6,37,Vencido,,,5. Viernes,2. Mediodia,1.0,0.0,Normal,Default
+433433338701,2288.6,37,Vencido,,,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433338898,1147.67,33,Vencido,,,5. Viernes,2. Mediodia,1.0,0.0,Normal,Default
+433433338905,325.25,7,Reactivo,,,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433338083,26.54,7,Reactivo,,,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433339444,4416.97,37,Vencido,,,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433339544,499.48,6,Reactivo,,,5. Viernes,3. Tarde,1.0,1.0,Normal,Default
+433433339563,153.59,1,Reactivo,,,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433339572,196.84,1,Reactivo,,,5. Viernes,3. Tarde,1.0,1.0,Normal,Default
+433433339520,298.17,1,Reactivo,,,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433339649,2197.07,37,Vencido,,,5. Viernes,2. Mediodia,1.0,0.0,Normal,Default
+433433339936,292.2,1,Reactivo,,,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433339936,292.2,1,Reactivo,,,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433339916,300.68,1,Reactivo,,,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433339081,292.82,1,Reactivo,,,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433339081,292.82,1,Reactivo,,,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433339163,887.88,1,Reactivo,,,5. Viernes,3. Tarde,1.0,1.0,Normal,Default
+433433339250,45.0,1,Reactivo,,,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433339250,45.0,1,Reactivo,,,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433339222,312.14,1,Reactivo,,,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433330485,358.06,6,Reactivo,,,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433330485,358.06,6,Reactivo,,,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433338154,357.13,6,Reactivo,,,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433339544,499.48,6,Reactivo,,,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433339936,292.2,1,Reactivo,,,5. Viernes,3. Tarde,1.0,1.0,Normal,Default
+433433339250,45.0,1,Reactivo,,,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433339222,312.14,1,Reactivo,,,5. Viernes,3. Tarde,1.0,1.0,Normal,Default
+433433330485,358.06,6,Reactivo,,,5. Viernes,3. Tarde,1.0,1.0,Normal,Default
+433433333596,453.0,6,Reactivo,,,1. Lunes,3. Tarde,1.0,0.0,Normal,Default
+433433333596,453.0,6,Reactivo,,,1. Lunes,4. Noche,1.0,0.0,Normal,Default
+433433333166,826.45,5,Reactivo,,,1. Lunes,3. Tarde,1.0,0.0,Normal,Default
+433433334366,226.86,4,Reactivo,,,1. Lunes,3. Tarde,1.0,0.0,Normal,Default
+433433334366,226.86,4,Reactivo,,,1. Lunes,4. Noche,1.0,0.0,Normal,Default
+433433334530,1148.26,4,Reactivo,,,1. Lunes,3. Tarde,1.0,0.0,Normal,Default
+433433334530,1148.26,4,Reactivo,,,1. Lunes,4. Noche,1.0,0.0,Normal,Default
+433433337659,515.98,6,Reactivo,,,1. Lunes,4. Noche,1.0,0.0,Normal,Default
+433433338774,596.77,6,Reactivo,,,1. Lunes,4. Noche,1.0,0.0,Normal,Default
+433433338831,356.88,6,Reactivo,,,1. Lunes,4. Noche,1.0,0.0,Normal,Default
+433433338014,409.5,6,Reactivo,,,1. Lunes,3. Tarde,1.0,1.0,Normal,Default
+433433339431,1436.72,28,Vencido,,,1. Lunes,1. Mañana,1.0,0.0,Normal,Default
+433433339045,847.58,4,Reactivo,,,1. Lunes,3. Tarde,1.0,1.0,Normal,Default
+433433339045,847.58,4,Reactivo,,,1. Lunes,4. Noche,1.0,0.0,Normal,Default
+433433339135,571.72,4,Reactivo,,,1. Lunes,4. Noche,1.0,0.0,Normal,Default
+433433339145,476.38,6,Reactivo,,,1. Lunes,3. Tarde,1.0,0.0,Normal,Default
+433433330485,358.06,6,Reactivo,,,1. Lunes,3. Tarde,1.0,0.0,Normal,Default
+433433334530,1148.26,4,Reactivo,,,1. Lunes,4. Noche,1.0,0.0,Normal,Default
+433433337085,924.0,73,Vencida_Agencia,,Cecilio,1. Lunes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433338397,1478.48,73,Vencida_Agencia,,Cecilio,1. Lunes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433338448,5932.04,80,Vencida_Agencia,,Cecilio,1. Lunes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433338674,1386.14,23,Vencido,,,1. Lunes,3. Tarde,1.0,0.0,Normal,Default
+433433338698,3850.67,66,Vencida_Agencia,,Cecilio,1. Lunes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433338752,4609.09,67,Vencida_Agencia,,Cecilio,1. Lunes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433338701,2288.6,37,Vencido,,,1. Lunes,1. Mañana,1.0,0.0,Normal,Default
+433433338993,2291.22,12,Retrasado,,,1. Lunes,3. Tarde,1.0,0.0,Normal,Default
+433433338126,1398.97,23,Vencido,,,1. Lunes,3. Tarde,1.0,0.0,Normal,Default
+433433339145,476.38,6,Reactivo,,,1. Lunes,3. Tarde,1.0,1.0,Normal,Default
+433433333390,9380.08,201,Vencida_Agencia,,Cecilio,2. Martes,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433333319,23764.61,126,Vencida_Agencia,,Cecilio,2. Martes,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433333319,23764.61,126,Vencida_Agencia,,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433333453,3739.99,97,Vencida_Agencia,,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433333552,4163.46,126,Vencida_Agencia,,Cecilio,2. Martes,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433333796,3482.82,112,Vencida_Agencia,,Cecilio,2. Martes,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433334490,531.59,97,Vencida_Agencia,,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433334735,4449.17,101,Vencida_Agencia,,Cecilio,2. Martes,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433334714,1726.2,56,Vencido,,,2. Martes,1. Mañana,1.0,0.0,Intenso - 5,Default
+433433334975,3934.48,126,Vencida_Agencia,,Cecilio,2. Martes,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433335364,2083.2,126,Vencida_Agencia,,Cecilio,2. Martes,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433335488,3147.67,40,Vencido,,,2. Martes,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433335631,2316.23,52,Vencido,,,2. Martes,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433335631,2316.23,52,Vencido,,,2. Martes,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433335669,47104.21,96,Vencida_Grupal,,Cecilio,2. Martes,2. Mediodia,1.0,0.0,,
+433433335743,41374.68,89,Vencida_Grupal,,Cecilio,2. Martes,2. Mediodia,1.0,1.0,,
+433433335750,93876.05,109,Vencida_Grupal,,Cecilio,2. Martes,2. Mediodia,1.0,0.0,,
+433433335763,1831.68,111,Vencida_Agencia,,Cecilio,2. Martes,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433335719,1831.68,108,Vencida_Agencia,,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433335723,2539.53,83,Vencida_Agencia,,Cecilio,2. Martes,3. Tarde,1.0,1.0,Intenso - 5,Default
+433433335197,3924.52,66,Vencida_Agencia,,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433336637,1441.76,23,Vencido,,,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433337707,915.84,87,Vencida_Agencia,,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433337085,924.0,73,Vencida_Agencia,,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433338397,1478.48,73,Vencida_Agencia,,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433338693,2686.48,52,Vencido,,,2. Martes,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433338701,2288.6,37,Vencido,,,2. Martes,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433339844,920.39,23,Vencido,,,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433339867,2137.16,40,Vencido,,,2. Martes,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433333453,3739.99,97,Vencida_Agencia,,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433334332,3533.45,66,Vencida_Agencia,,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433334490,531.59,97,Vencida_Agencia,,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433334554,2843.05,70,Vencida_Agencia,,Cecilio,2. Martes,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433334735,4449.17,101,Vencida_Agencia,,Cecilio,2. Martes,2. Mediodia,1.0,1.0,Intenso - 5,Default
+433433334735,4449.17,101,Vencida_Agencia,,Cecilio,2. Martes,3. Tarde,1.0,1.0,Intenso - 5,Default
+433433334739,4166.4,126,Vencida_Agencia,,Cecilio,2. Martes,4. Noche,1.0,1.0,Intenso - 5,Default
+433433334755,4166.4,126,Vencida_Agencia,,Cecilio,2. Martes,4. Noche,1.0,0.0,Intenso - 5,Default
+433433335365,2083.2,126,Vencida_Agencia,,Cecilio,2. Martes,2. Mediodia,1.0,1.0,Intenso - 5,Default
+433433335488,3147.67,40,Vencido,,,2. Martes,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433335669,47104.21,96,Vencida_Grupal,,Cecilio,2. Martes,2. Mediodia,1.0,0.0,,
+433433335669,47104.21,96,Vencida_Grupal,,Cecilio,2. Martes,3. Tarde,1.0,0.0,,
+433433335739,3060.63,96,Vencida_Agencia,,Cecilio,2. Martes,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433335739,3060.63,96,Vencida_Agencia,,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433335763,1831.68,111,Vencida_Agencia,,Cecilio,2. Martes,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433335706,2152.15,87,Vencida_Agencia,,Cecilio,2. Martes,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433335723,2539.53,83,Vencida_Agencia,,Cecilio,2. Martes,2. Mediodia,1.0,1.0,Intenso - 5,Default
+433433335237,55336.37,95,Vencida_Grupal,,Cecilio,2. Martes,2. Mediodia,1.0,0.0,,
+433433336321,1728.32,66,Vencida_Agencia,,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433336321,1728.32,66,Vencida_Agencia,,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433336412,1769.51,74,Vencida_Agencia,,Cecilio,2. Martes,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433336637,1441.76,23,Vencido,,,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433336280,730.66,91,Vencida_Agencia,,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433337659,515.98,6,Reactivo,,,2. Martes,4. Noche,1.0,0.0,Intenso,Default
+433433337085,924.0,73,Vencida_Agencia,,Cecilio,2. Martes,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433337085,924.0,73,Vencida_Agencia,,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433338356,3667.55,66,Vencida_Agencia,,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433338397,1478.48,73,Vencida_Agencia,,Cecilio,2. Martes,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433338397,1478.48,73,Vencida_Agencia,,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433338674,1386.14,23,Vencido,,,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433338674,1386.14,23,Vencido,,,2. Martes,4. Noche,1.0,0.0,Intenso - 5,Default
+433433338698,3850.67,66,Vencida_Agencia,,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433338701,2288.6,37,Vencido,,,2. Martes,1. Mañana,1.0,0.0,Intenso - 5,Default
+433433338886,859.17,4,Reactivo,,,2. Martes,4. Noche,1.0,0.0,Intenso,Default
+433433339649,2197.07,37,Vencido,,,2. Martes,1. Mañana,1.0,0.0,Intenso - 5,Default
+433433339776,987.06,6,Reactivo,,,2. Martes,3. Tarde,1.0,0.0,Intenso,Default
+433433339776,987.06,6,Reactivo,,,2. Martes,4. Noche,1.0,0.0,Intenso,Default
+433433339135,571.72,4,Reactivo,,,2. Martes,3. Tarde,1.0,0.0,Intenso,Default
+433433339135,571.72,4,Reactivo,,,2. Martes,4. Noche,1.0,0.0,Intenso,Default
+433433330485,358.06,6,Reactivo,,,2. Martes,3. Tarde,1.0,0.0,Intenso,Default
+433433333596,453.0,6,Reactivo,,,3. Miercoles,4. Noche,1.0,0.0,Normal,Default
+433433333931,1234.25,6,Reactivo,,,3. Miercoles,4. Noche,1.0,0.0,Normal,Default
+433433333178,1138.53,8,Retrasado,,,3. Miercoles,4. Noche,1.0,0.0,Normal,Default
+433433334949,796.39,21,Retrasado,,,3. Miercoles,4. Noche,1.0,0.0,Normal,Default
+433433336609,1269.44,12,Retrasado,,,3. Miercoles,4. Noche,1.0,0.0,Normal,Default
+433433337659,515.98,6,Reactivo,,,3. Miercoles,4. Noche,1.0,0.0,Normal,Default
+433433337272,921.46,66,Vencida_Agencia,,Cecilio,3. Miercoles,3. Tarde,1.0,0.0,Normal,Default
+433433338397,1478.48,73,Vencida_Agencia,,Cecilio,3. Miercoles,3. Tarde,1.0,0.0,Normal,Default
+433433338061,631.72,5,Reactivo,,,3. Miercoles,3. Tarde,1.0,0.0,Normal,Default
+433433338061,631.72,5,Reactivo,,,3. Miercoles,4. Noche,1.0,0.0,Normal,Default
+433433333596,453.0,6,Reactivo,,,3. Miercoles,3. Tarde,1.0,1.0,Normal,Default
+433433333974,2170.09,25,Vencido,,,3. Miercoles,3. Tarde,1.0,0.0,Normal,Default
+433433334905,2927.42,10,Retrasado,,,3. Miercoles,3. Tarde,1.0,0.0,Normal,Default
+433433338774,596.77,6,Reactivo,,,3. Miercoles,3. Tarde,1.0,0.0,Normal,Default
+433433338701,2288.6,37,Vencido,,,3. Miercoles,3. Tarde,1.0,0.0,Normal,Default
+433433338143,1571.5,26,Vencido,,,3. Miercoles,4. Noche,1.0,0.0,Normal,Default
+433433333319,23764.61,126,Vencida_Agencia,,Renata,4. Jueves,3. Tarde,1.0,0.0,Normal,Default
+433433333453,3739.99,97,Vencida_Agencia,,Renata,4. Jueves,3. Tarde,1.0,0.0,Normal,Default
+433433333746,3171.52,132,Vencida_Agencia,,Renata,4. Jueves,3. Tarde,1.0,1.0,Normal,Default
+433433333889,4166.4,126,Vencida_Agencia,,Renata,4. Jueves,3. Tarde,1.0,0.0,Normal,Default
+433433333273,2185.01,126,Vencida_Agencia,,Renata,4. Jueves,3. Tarde,1.0,0.0,Normal,Default
+433433334332,3533.45,66,Vencida_Agencia,,Renata,4. Jueves,3. Tarde,1.0,1.0,Normal,Default
+433433334755,4166.4,126,Vencida_Agencia,,Renata,4. Jueves,3. Tarde,1.0,0.0,Normal,Default
+433433334905,2927.42,10,Retrasado,,,4. Jueves,2. Mediodia,1.0,0.0,Normal,Default
+433433335158,2723.46,55,Vencido,,,4. Jueves,1. Mañana,1.0,0.0,Normal,Default
+433433335237,55336.37,95,Vencida_Grupal,,Renata,4. Jueves,3. Tarde,1.0,0.0,,
+433433335237,55336.37,95,Vencida_Grupal,,Renata,4. Jueves,4. Noche,1.0,0.0,,
+433433335238,48788.36,83,Vencida_Grupal,,Renata,4. Jueves,4. Noche,1.0,0.0,,
+433433335245,65820.58,88,Vencida_Grupal,,Renata,4. Jueves,4. Noche,1.0,0.0,,
+433433336496,2671.87,80,Vencida_Agencia,,Renata,4. Jueves,3. Tarde,1.0,0.0,Normal,Default
+433433336595,3060.63,96,Vencida_Agencia,,Renata,4. Jueves,3. Tarde,1.0,0.0,Normal,Default
+433433336964,2727.18,70,Vencida_Agencia,,Renata,4. Jueves,3. Tarde,1.0,0.0,Normal,Default
+433433336010,915.84,94,Vencida_Agencia,,Renata,4. Jueves,3. Tarde,1.0,0.0,Normal,Default
+433433337659,515.98,6,Reactivo,,,4. Jueves,1. Mañana,1.0,0.0,Normal,Default
+433433337707,915.84,87,Vencida_Agencia,,Renata,4. Jueves,3. Tarde,1.0,0.0,Normal,Default
+433433337707,915.84,87,Vencida_Agencia,,Renata,4. Jueves,4. Noche,1.0,0.0,Normal,Default
+433433337085,924.0,73,Vencida_Agencia,,Renata,4. Jueves,4. Noche,1.0,0.0,Normal,Default
+433433338397,1478.48,73,Vencida_Agencia,,Renata,4. Jueves,4. Noche,1.0,0.0,Normal,Default
+433433338674,1386.14,23,Vencido,,,4. Jueves,1. Mañana,1.0,0.0,Normal,Default
+433433338898,1147.67,33,Vencido,,,4. Jueves,1. Mañana,1.0,0.0,Normal,Default
+433433338993,2291.22,12,Retrasado,,,4. Jueves,2. Mediodia,1.0,0.0,Normal,Default
+433433338143,1571.5,26,Vencido,,,4. Jueves,1. Mañana,1.0,0.0,Normal,Default
+433433338154,357.13,6,Reactivo,,,4. Jueves,2. Mediodia,1.0,0.0,Normal,Default
+433433339867,2137.16,40,Vencido,,,4. Jueves,1. Mañana,1.0,1.0,Normal,Default
+433433334971,4166.4,126,Vencida_Agencia,,Renata,4. Jueves,3. Tarde,1.0,0.0,Normal,Default
+433433334083,3934.6,126,Vencida_Agencia,,Renata,4. Jueves,3. Tarde,1.0,0.0,Normal,Default
+433433334003,4166.4,126,Vencida_Agencia,,Renata,4. Jueves,3. Tarde,1.0,0.0,Normal,Default
+433433335416,2668.9,30,Vencido,,,4. Jueves,1. Mañana,1.0,0.0,Normal,Default
+433433335669,47104.21,96,Vencida_Grupal,,Renata,4. Jueves,3. Tarde,1.0,0.0,,
+433433335739,3060.63,96,Vencida_Agencia,,Renata,4. Jueves,3. Tarde,1.0,0.0,Normal,Default
+433433335763,1831.68,111,Vencida_Agencia,,Renata,4. Jueves,3. Tarde,1.0,0.0,Normal,Default
+433433335706,2152.15,87,Vencida_Agencia,,Renata,4. Jueves,3. Tarde,1.0,0.0,Normal,Default
+433433337272,921.46,66,Vencida_Agencia,,Renata,4. Jueves,3. Tarde,1.0,0.0,Normal,Default
+433433338356,3667.55,66,Vencida_Agencia,,Renata,4. Jueves,3. Tarde,1.0,0.0,Normal,Default
+433433338397,1478.48,73,Vencida_Agencia,,Renata,4. Jueves,3. Tarde,1.0,0.0,Normal,Default
+433433338999,4725.62,63,Vencida_Agencia,,Renata,4. Jueves,3. Tarde,1.0,0.0,Normal,Default
+433433339867,2137.16,40,Vencido,,,4. Jueves,1. Mañana,1.0,0.0,Normal,Default
+433433338693,2821.95,59,Vencido,,,1. Lunes,4. Noche,1.0,0.0,Normal,Default
+433433338674,2025.08,28,Vencido,,,1. Lunes,4. Noche,1.0,0.0,Normal,Default
+433433338415,1877.34,59,Vencido,,,6. Sabado,2. Mediodia,1.0,0.0,Intenso -7,Default
+433433334660,13110.86,66,Vencida_Agencia,,Jorge,6. Sabado,2. Mediodia,1.0,0.0,Intenso - 7,Default
+433433335723,2539.53,83,Vencida_Agencia,,Jorge,6. Sabado,2. Mediodia,1.0,0.0,Intenso - 7,Default
+433433335014,2875.4,83,Vencida_Agencia,,Jorge,6. Sabado,2. Mediodia,1.0,0.0,Intenso - 7,Default
+433433336599,2465.59,84,Vencida_Agencia,,Jorge,6. Sabado,2. Mediodia,1.0,0.0,Intenso - 7,Default
+433433336767,2380.65,77,Vencida_Agencia,,Jorge,6. Sabado,2. Mediodia,1.0,0.0,Intenso - 7,Default
+433433336964,2727.18,70,Vencida_Agencia,,Jorge,6. Sabado,2. Mediodia,1.0,0.0,Intenso - 7,Default
+433433336274,1293.68,59,Vencida_Agencia,,Jorge,6. Sabado,2. Mediodia,1.0,0.0,Intenso - 7,Default
+433433337085,924.0,73,Vencida_Agencia,,Jorge,6. Sabado,2. Mediodia,1.0,0.0,Intenso - 7,Default
+433433338397,1478.48,73,Vencida_Agencia,,Jorge,6. Sabado,2. Mediodia,1.0,0.0,Intenso - 7,Default
+433433338674,2025.08,28,Vencido,,,6. Sabado,2. Mediodia,1.0,0.0,Intenso -7,Default
+433433337085,924.0,73,Vencida_Agencia,,Jorge,6. Sabado,2. Mediodia,1.0,0.0,Intenso - 7,Default
+433433338397,1478.48,73,Vencida_Agencia,,Jorge,6. Sabado,2. Mediodia,1.0,0.0,Intenso - 7,Default
+433433335190,3633.6,83,Vencida_Agencia,,Jorge,6. Sabado,2. Mediodia,1.0,0.0,Intenso - 7,Default
+433433338397,1478.48,73,Vencida_Agencia,,Jorge,6. Sabado,1. Mañana,1.0,0.0,Intenso - 7,Default
+433433335950,1157.34,11,Retrasado,,,6. Sabado,1. Mañana,1.0,0.0,Normal,Default
+433433335723,2539.53,83,Vencida_Agencia,,Jorge,6. Sabado,1. Mañana,1.0,0.0,Intenso - 7,Default
+433433338693,2821.95,59,Vencido,,,6. Sabado,1. Mañana,1.0,0.0,Intenso -7,Default
+433433335723,2539.53,83,Vencida_Agencia,,Jorge,6. Sabado,1. Mañana,1.0,0.0,Intenso - 7,Default
+433433336599,2465.59,84,Vencida_Agencia,,Jorge,6. Sabado,1. Mañana,1.0,0.0,Intenso - 7,Default
+433433338397,1478.48,73,Vencida_Agencia,,Jorge,6. Sabado,1. Mañana,1.0,0.0,Intenso - 7,Default
+433433338500,4820.35,66,Vencida_Agencia,,Jorge,6. Sabado,1. Mañana,1.0,0.0,Intenso - 7,Default
+433433333386,5921.22,126,Vencida_Agencia,,Jorge,5. Viernes,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433333733,3938.84,126,Vencida_Agencia,,Jorge,5. Viernes,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433333889,4166.4,126,Vencida_Agencia,,Jorge,5. Viernes,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433334774,4166.4,111,Vencida_Agencia,,Jorge,5. Viernes,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433334044,5901.96,111,Vencida_Agencia,,Jorge,5. Viernes,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433334083,3934.6,126,Vencida_Agencia,,Jorge,5. Viernes,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433330485,708.85,11,Retrasado,,,5. Viernes,4. Noche,1.0,0.0,Intenso,Alto
+433433334573,1434.86,4,Reactivo,,,5. Viernes,4. Noche,1.0,0.0,Intenso,Alto
+433433335739,3060.63,96,Vencida_Agencia,,Jorge,5. Viernes,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433335190,3633.6,83,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433335237,55336.37,95,Vencida_Grupal,,Jorge,5. Viernes,3. Tarde,1.0,0.0,,
+433433335245,65820.58,88,Vencida_Grupal,,Jorge,5. Viernes,3. Tarde,1.0,0.0,,
+433433333386,5921.22,126,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433333387,16592.77,112,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433333453,3739.99,97,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433336964,2727.18,70,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433334425,5641.65,97,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433338397,1478.48,73,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433338448,5932.04,80,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433334692,3934.48,126,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433338487,1293.68,80,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433338500,4820.35,66,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433334716,4080.91,96,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433334975,3934.48,126,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433334971,4166.4,126,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433334003,4166.4,126,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433334573,1434.86,4,Reactivo,,,5. Viernes,3. Tarde,1.0,0.0,Intenso,Alto
+433433335382,3590.5,101,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433335706,2152.15,87,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433335723,2539.53,83,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433335918,10188.22,59,Vencida_Grupal,,Jorge,5. Viernes,3. Tarde,1.0,0.0,,
+433433335014,2875.4,83,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433335190,3633.6,83,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433335237,55336.37,95,Vencida_Grupal,,Jorge,5. Viernes,3. Tarde,1.0,0.0,,
+433433336412,1769.51,74,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433336599,2465.59,84,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433336964,2727.18,70,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433336968,25709.95,87,Vencida_Grupal,,Jorge,5. Viernes,3. Tarde,1.0,0.0,,
+433433336274,1293.68,59,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433337085,924.0,73,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433338397,1478.48,73,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433338500,4820.35,66,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433338698,3850.67,66,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433338999,4725.62,63,Vencida_Agencia,,Jorge,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433334573,1434.86,4,Reactivo,,,5. Viernes,3. Tarde,1.0,1.0,Intenso,Alto
+433433339431,1784.31,30,Vencido,,,5. Viernes,2. Mediodia,1.0,0.0,Intenso -7,Alto
+433433339810,2935.42,31,Vencido,,,5. Viernes,2. Mediodia,1.0,0.0,Intenso -7,Alto
+433433338693,2821.95,59,Vencido,,,5. Viernes,2. Mediodia,1.0,0.0,Intenso -7,Alto
+433433338701,2933.99,42,Vencido,,,5. Viernes,2. Mediodia,1.0,0.0,Intenso -7,Alto
+433433338674,2025.08,28,Vencido,,,5. Viernes,2. Mediodia,1.0,0.0,Intenso -7,Alto
+433433339431,1784.31,30,Vencido,,,5. Viernes,1. Mañana,1.0,0.0,Intenso -7,Alto
+433433339431,1784.31,30,Vencido,,,5. Viernes,1. Mañana,1.0,1.0,Intenso -7,Alto
+433433339550,970.26,52,Vencido,,,5. Viernes,1. Mañana,1.0,0.0,Intenso -7,Alto
+433433336637,1807.06,28,Vencido,,,5. Viernes,1. Mañana,1.0,0.0,Intenso -7,Alto
+433433338674,2025.08,28,Vencido,,,5. Viernes,1. Mañana,1.0,0.0,Intenso -7,Alto
+433433339818,1056.15,22,Vencido,,,5. Viernes,1. Mañana,1.0,0.0,Intenso -7,Alto
+433433334276,3290.42,59,Vencido,,Beatriz,1. Lunes,3. Tarde,1.0,0.0,Normal,Default
+433433335631,2366.1,59,Vencido,,Beatriz,1. Lunes,3. Tarde,1.0,0.0,Normal,Default
+433433338701,2933.99,42,Vencido,,Beatriz,1. Lunes,3. Tarde,1.0,1.0,Normal,Default
+433433338674,2025.08,28,Vencido,,Beatriz,1. Lunes,3. Tarde,1.0,0.0,Normal,Default
+433433339649,2816.66,42,Vencido,,Beatriz,1. Lunes,3. Tarde,1.0,0.0,Normal,Default
+433433338143,1850.75,31,Vencido,,Beatriz,1. Lunes,2. Mediodia,1.0,0.0,Normal,Default
+433433339550,970.26,52,Vencido,,Beatriz,1. Lunes,1. Mañana,1.0,0.0,Normal,Default
+433433338674,2025.08,28,Vencido,,Beatriz,1. Lunes,1. Mañana,1.0,0.0,Normal,Default
+433433338693,2821.95,59,Vencido,,Beatriz,1. Lunes,1. Mañana,1.0,1.0,Normal,Default
+433433339550,970.26,52,Vencido,,Beatriz,1. Lunes,1. Mañana,1.0,0.0,Normal,Default
+433433338701,2933.99,42,Vencido,,Beatriz,1. Lunes,1. Mañana,1.0,0.0,Normal,Default
+433433338674,2025.08,28,Vencido,,Beatriz,1. Lunes,1. Mañana,1.0,0.0,Normal,Default
+433433339867,2465.53,45,Vencido,,Beatriz,1. Lunes,1. Mañana,1.0,0.0,Normal,Default
+433433338693,2821.95,59,Vencido,,Beatriz,1. Lunes,1. Mañana,1.0,1.0,Normal,Default
+433433338911,12682.64,49,Vencido,,Beatriz,1. Lunes,1. Mañana,1.0,0.0,Normal,Default
+433433338701,2933.99,42,Vencido,,Beatriz,1. Lunes,1. Mañana,1.0,0.0,Normal,Default
+433433338674,2025.08,28,Vencido,,Beatriz,1. Lunes,1. Mañana,1.0,0.0,Normal,Default
+433433339867,2465.53,45,Vencido,,Beatriz,1. Lunes,1. Mañana,1.0,0.0,Normal,Default
+433433338061,1279.75,10,Retrasado,,Beatriz,1. Lunes,1. Mañana,1.0,0.0,Normal,Default
+433433339145,943.97,11,Retrasado,,Beatriz,1. Lunes,1. Mañana,1.0,0.0,Normal,Default
+433433336922,773.51,10,Retrasado,,Beatriz,1. Lunes,1. Mañana,1.0,1.0,Normal,Default
+433433339970,545.79,3,Reactivo,,Beatriz,1. Lunes,1. Mañana,1.0,0.0,Normal,Default
+433433339910,695.5,4,Reactivo,,Beatriz,1. Lunes,1. Mañana,1.0,1.0,Normal,Default
+433433339482,579.29,3,Reactivo,,Beatriz,1. Lunes,1. Mañana,1.0,0.0,Normal,Default
+433433339135,565.39,3,Reactivo,,Beatriz,1. Lunes,1. Mañana,1.0,0.0,Normal,Default
+433433330405,331.51,1,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433333686,956.08,3,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433336312,2538.29,83,Vencida_Agencia,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Alto
+433433338061,1348.75,14,Retrasado,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433333166,284.27,1,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433334319,548.89,7,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433330528,372.76,1,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433333596,416.16,2,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433335706,2152.15,87,Vencida_Agencia,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Alto
+433433336859,805.1,1,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433337659,443.45,2,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433334910,5.31,2,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433335918,10188.22,59,Vencida_Grupal,,Cecilio,4. Jueves,4. Noche,1.0,0.0,,Alto
+433433330485,752.59,15,Retrasado,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433338616,966.05,2,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433338125,294.58,2,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433339746,515.49,1,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433339716,371.0,1,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433338645,3919.66,63,Vencido,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Default
+433433335190,3633.6,83,Vencida_Agencia,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Alto
+433433337085,924.0,73,Vencida_Agencia,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Alto
+433433334219,5897.17,38,Vencida_Grupal,,Cecilio,4. Jueves,4. Noche,1.0,0.0,,Alto
+433433338397,1478.48,73,Vencida_Agencia,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Alto
+433433338487,1293.68,80,Vencida_Agencia,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Alto
+433433338698,3850.67,66,Vencida_Agencia,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Alto
+433433338999,4725.62,63,Vencida_Agencia,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Alto
+433433330405,331.51,1,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433339563,160.71,2,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433333991,1967.24,158,Vencida_Agencia,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Alto
+433433339572,182.94,1,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433339726,548.16,2,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433339293,548.16,2,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433334346,3934.6,111,Vencida_Agencia,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Alto
+433433338061,1348.75,14,Retrasado,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433333166,284.27,1,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,1.0,Intenso,Default
+433433334319,548.89,7,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433334905,3212.03,17,Retrasado,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433333596,416.16,2,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,1.0,Intenso,Default
+433433337085,924.0,73,Vencida_Agencia,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Alto
+433433338356,3667.55,66,Vencida_Agencia,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Alto
+433433338397,1478.48,73,Vencida_Agencia,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Alto
+433433338500,4820.35,66,Vencida_Agencia,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Alto
+433433338774,1254.31,15,Retrasado,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433339081,292.64,1,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433338520,27587.8,61,Vencida_Grupal,,Cecilio,4. Jueves,4. Noche,1.0,0.0,,Alto
+433433338999,4725.62,63,Vencida_Agencia,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Alto
+433433334910,5.31,2,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433337659,443.45,2,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433338616,966.05,2,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433338125,294.58,2,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433334645,1039.82,2,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,1.0,Intenso,Default
+433433339641,484.45,2,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433339746,515.49,1,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433339716,371.0,1,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433339269,350.52,2,Reactivo,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso,Default
+433433334003,4166.4,126,Vencida_Agencia,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Alto
+433433339478,1771.44,32,Vencido,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Default
+433433339649,2909.98,46,Vencido,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Default
+433433335364,2083.2,126,Vencida_Agencia,,Cecilio,4. Jueves,4. Noche,1.0,1.0,Intenso - 7,Alto
+433433338674,2121.33,32,Vencido,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Default
+433433335382,3590.5,101,Vencida_Agencia,,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Alto
+433433335668,1971.6,111,Vencida_Agencia,,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Alto
+433433335763,1831.68,111,Vencida_Agencia,,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Alto
+433433335237,55336.37,95,Vencida_Grupal,,Cecilio,4. Jueves,3. Tarde,1.0,0.0,,Alto
+433433336792,2987.77,83,Vencida_Agencia,,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Alto
+433433336837,2934.18,94,Vencida_Agencia,,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Alto
+433433336964,2727.18,70,Vencida_Agencia,,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Alto
+433433336280,730.66,91,Vencida_Agencia,,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Alto
+433433338397,1478.48,73,Vencida_Agencia,,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Alto
+433433338487,1293.68,80,Vencida_Agencia,,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Alto
+433433338500,4820.35,66,Vencida_Agencia,,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Alto
+433433338698,3850.67,66,Vencida_Agencia,,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Alto
+433433338693,2879.36,63,Vencido,,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Default
+433433338674,2121.33,32,Vencido,,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Default
+433433334276,3373.44,63,Vencido,,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Default
+433433338693,2879.36,63,Vencido,,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Default
+433433338693,2879.36,63,Vencido,,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Default
+433433339550,970.26,56,Vencido,,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Default
+433433338674,2121.33,32,Vencido,,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Default
+433433335723,2539.53,83,Vencida_Agencia,,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Normal,Alto
+433433335197,3924.52,66,Vencida_Agencia,,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Normal,Alto
+433433335190,3633.6,83,Vencida_Agencia,,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Normal,Alto
+433433335237,55336.37,95,Vencida_Grupal,,Cecilio,3. Miercoles,4. Noche,1.0,0.0,,Alto
+433433338061,1348.75,14,Retrasado,,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Normal,Default
+433433339776,2074.62,15,Retrasado,,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Normal,Default
+433433338846,1617.54,15,Retrasado,,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Normal,Default
+433433336964,2727.18,70,Vencida_Agencia,,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Normal,Alto
+433433339813,1245.01,42,Vencido,,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Intenso - 5,Default
+433433339145,1002.23,15,Retrasado,,Cecilio,3. Miercoles,4. Noche,1.0,1.0,Normal,Default
+433433338340,3238.63,46,Vencido,,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Intenso - 5,Default
+433433337085,924.0,73,Vencida_Agencia,,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Normal,Alto
+433433338397,1478.48,73,Vencida_Agencia,,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Normal,Alto
+433433338698,3850.67,66,Vencida_Agencia,,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Normal,Alto
+433433330678,2340.42,7,Reactivo,,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Normal,Default
+433433334135,2799.09,59,Vencido,,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Intenso - 5,Default
+433433339810,3111.11,35,Vencido,,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Intenso - 5,Default
+433433338898,1245.01,42,Vencido,,Cecilio,3. Miercoles,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433338674,2121.33,32,Vencido,,Cecilio,3. Miercoles,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433339867,2546.22,49,Vencido,,Cecilio,3. Miercoles,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433338645,3919.66,63,Vencido,,Cecilio,2. Martes,4. Noche,1.0,0.0,Normal,Default
+433433334791,478.54,15,Retrasado,,Cecilio,2. Martes,3. Tarde,1.0,1.0,Normal,Default
+433433338874,1610.82,56,Vencido,,Cecilio,2. Martes,3. Tarde,1.0,0.0,Normal,Default
+433433336278,829.93,49,Vencido,,Cecilio,2. Martes,3. Tarde,1.0,0.0,Normal,Default
+433433333974,2383.73,32,Vencido,,Cecilio,2. Martes,3. Tarde,1.0,0.0,Normal,Default
+433433339649,2909.98,46,Vencido,,Cecilio,2. Martes,3. Tarde,1.0,0.0,Normal,Default
+433433338688,2886.45,56,Vencido,,Cecilio,2. Martes,3. Tarde,1.0,0.0,Normal,Default
+433433338613,1282.1,32,Vencido,,Cecilio,2. Martes,3. Tarde,1.0,0.0,Normal,Default
+433433338674,2121.33,32,Vencido,,Cecilio,2. Martes,3. Tarde,1.0,0.0,Normal,Default
+433433338674,2121.33,32,Vencido,,Jorge,6. Sabado,3. Tarde,1.0,0.0,Normal,Default
+433433339844,1408.53,32,Vencido,,Jorge,6. Sabado,3. Tarde,1.0,0.0,Normal,Default
+433433339867,2546.22,49,Vencido,,Jorge,6. Sabado,2. Mediodia,1.0,0.0,Normal,Default
+433433338645,3919.66,63,Vencido,,Jorge,6. Sabado,2. Mediodia,1.0,0.0,Normal,Default
+433433339293,548.16,2,Reactivo,,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Normal,Default
+433433334319,548.89,7,Reactivo,,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Normal,Default
+433433334195,453.22,2,Reactivo,,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Normal,Default
+433433335137,387.36,2,Reactivo,,Cecilio,6. Sabado,1. Mañana,1.0,1.0,Normal,Default
+433433337659,443.45,2,Reactivo,,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Normal,Default
+433433338616,966.05,2,Reactivo,,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Normal,Default
+433433339641,484.45,2,Reactivo,,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Normal,Default
+433433339025,543.12,2,Reactivo,,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Normal,Default
+433433339293,548.16,2,Reactivo,,Cecilio,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433337659,443.45,2,Reactivo,,Cecilio,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433338125,294.58,2,Reactivo,,Cecilio,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433338645,3919.66,63,Vencido,,Cecilio,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433333686,956.08,3,Reactivo,,Cecilio,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433339766,873.77,2,Reactivo,,Cecilio,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433330582,460.54,4,Reactivo,,Cecilio,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433335903,373.44,2,Reactivo,,Cecilio,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433335137,387.36,2,Reactivo,,Cecilio,5. Viernes,3. Tarde,1.0,1.0,Normal,Default
+433433339145,1002.23,15,Retrasado,,Cecilio,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433337659,443.45,2,Reactivo,,Cecilio,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433334910,5.31,2,Reactivo,,Cecilio,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433339641,484.45,2,Reactivo,,Cecilio,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433339025,543.12,2,Reactivo,,Cecilio,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433334135,2799.09,59,Vencido,,Cecilio,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433338674,2121.33,32,Vencido,,Cecilio,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433339844,1408.53,32,Vencido,,Cecilio,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433336637,1893.3,32,Vencido,,Cecilio,5. Viernes,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433338340,3238.63,46,Vencido,,Cecilio,5. Viernes,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433338674,2121.33,32,Vencido,,Cecilio,5. Viernes,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433336637,1893.3,32,Vencido,,Cecilio,5. Viernes,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433338674,2121.33,32,Vencido,,Cecilio,5. Viernes,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433338143,1952.43,35,Vencido,,Cecilio,5. Viernes,1. Mañana,1.0,0.0,Intenso - 5,Default
+433433338962,3664.8,52,Vencido,,Cecilio,5. Viernes,1. Mañana,1.0,0.0,Intenso - 5,Default
+433433338340,3238.63,46,Vencido,,Cecilio,5. Viernes,1. Mañana,1.0,0.0,Intenso - 5,Default
+433433338674,2121.33,32,Vencido,,Cecilio,5. Viernes,1. Mañana,1.0,0.0,Intenso - 5,Default
+433433337085,924.0,73,Vencida_Agencia,,Cecilio,1. Lunes,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433338898,1267.13,45,Vencido,,Cecilio,1. Lunes,4. Noche,1.0,0.0,Normal,Default
+433433338397,1478.48,73,Vencida_Agencia,,Cecilio,1. Lunes,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433335364,2083.2,126,Vencida_Agencia,,Cecilio,1. Lunes,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433338698,3850.67,66,Vencida_Agencia,,Cecilio,1. Lunes,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433335305,9005.64,77,Vencida_Grupal,,Cecilio,1. Lunes,4. Noche,1.0,0.0,,Alto
+433433335538,1916.44,66,Vencida_Agencia,,Cecilio,1. Lunes,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433339910,1037.54,11,Retrasado,,Cecilio,1. Lunes,4. Noche,1.0,0.0,Intenso,Default
+433433337659,472.93,5,Reactivo,,Cecilio,1. Lunes,4. Noche,1.0,0.0,Intenso,Default
+433433335723,2539.53,83,Vencida_Agencia,,Cecilio,1. Lunes,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433339895,1230.35,18,Retrasado,,Cecilio,1. Lunes,4. Noche,1.0,0.0,Intenso,Default
+433433337260,713.29,3,Reactivo,,Cecilio,1. Lunes,4. Noche,1.0,1.0,Intenso,Default
+433433330617,320.59,3,Reactivo,,Cecilio,1. Lunes,4. Noche,1.0,0.0,Intenso,Default
+433433335237,55336.37,95,Vencida_Grupal,,Cecilio,1. Lunes,4. Noche,1.0,0.0,,Alto
+433433335238,48788.36,83,Vencida_Grupal,,Cecilio,1. Lunes,4. Noche,1.0,0.0,,Alto
+433433337311,858.59,24,Vencido,,Cecilio,1. Lunes,4. Noche,1.0,0.0,Normal,Default
+433433336280,730.66,91,Vencida_Agencia,,Cecilio,1. Lunes,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433338645,3992.58,66,Vencido,,Cecilio,1. Lunes,4. Noche,1.0,0.0,Normal,Default
+433433339550,970.26,59,Vencido,,Cecilio,1. Lunes,4. Noche,1.0,0.0,Normal,Default
+433433338898,1267.13,45,Vencido,,Cecilio,1. Lunes,4. Noche,1.0,0.0,Normal,Default
+433433338397,1478.48,73,Vencida_Agencia,,Cecilio,1. Lunes,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433338487,1293.68,80,Vencida_Agencia,,Cecilio,1. Lunes,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433338500,4820.35,66,Vencida_Agencia,,Cecilio,1. Lunes,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433339649,2979.99,49,Vencido,,Cecilio,1. Lunes,4. Noche,1.0,0.0,Normal,Default
+433433338674,2193.53,35,Vencido,,Cecilio,1. Lunes,4. Noche,1.0,0.0,Normal,Default
+433433339867,2616.84,52,Vencido,,Cecilio,1. Lunes,4. Noche,1.0,0.0,Normal,Default
+433433338898,1284.83,49,Vencido,11.0,Cecilio,6. Sabado,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433335488,3403.24,57,Vencido,4.0,Cecilio,6. Sabado,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433339867,2697.53,56,Vencido,26.0,Cecilio,6. Sabado,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433333386,5921.22,126,Vencida_Agencia,2.0,Cecilio,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433334554,2843.05,70,Vencida_Agencia,12.0,Cecilio,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433334716,4080.91,96,Vencida_Agencia,20.0,Cecilio,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433338645,4089.8,70,Vencido,3.0,Cecilio,6. Sabado,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433335361,3833.94,83,Vencida_Agencia,35.0,Cecilio,6. Sabado,2. Mediodia,1.0,0.0,Normal,Alto
+433433339844,1520.38,39,Vencido,11.0,Cecilio,6. Sabado,2. Mediodia,1.0,0.0,Intenso - 5,Default
+433433335197,3924.52,66,Vencida_Agencia,5.0,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Normal,Alto
+433433337085,924.0,73,Vencida_Agencia,2.0,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Normal,Alto
+433433338397,1478.48,73,Vencida_Agencia,1.0,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Normal,Alto
+433433338487,1293.68,80,Vencida_Agencia,30.0,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Normal,Alto
+433433337659,512.27,9,Retrasado,8.0,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Intenso,Default
+433433338898,1284.83,49,Vencido,12.0,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Intenso - 5,Default
+433433339649,3073.34,53,Vencido,14.0,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Intenso - 5,Default
+433433339776,2356.06,22,Vencido,5.0,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Intenso - 5,Default
+433433335918,11135.02,77,Vencido,60.0,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Intenso - 5,Default
+433433334085,701.11,4,Reactivo,36.0,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Intenso,Default
+433433336847,1799.61,7,Reactivo,2.0,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Intenso,Default
+433433339431,22.7,9,Retrasado,64.0,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Intenso,Default
+433433339339,1108.86,63,Vencido,4.0,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Intenso - 5,Default
+433433330385,657.12,9,Retrasado,5.0,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Intenso,Default
+433433338674,2289.79,39,Vencido,10.0,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Intenso - 5,Default
+433433334085,701.11,4,Reactivo,37.0,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Intenso,Default
+433433338061,1541.98,21,Retrasado,11.0,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Intenso,Default
+433433337659,512.27,9,Retrasado,28.0,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Intenso,Default
+433433338760,2903.46,25,Vencido,17.0,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Intenso - 5,Default
+433433339867,2697.53,56,Vencido,0.0,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Intenso - 5,Default
+433433334219,6984.87,56,Vencido,5.0,Cecilio,6. Sabado,1. Mañana,1.0,0.0,Intenso - 5,Default
+433433335364,2083.2,126,Vencida_Agencia,99.0,Cecilio,5. Viernes,4. Noche,1.0,1.0,Normal,Alto
+433433335190,3633.6,83,Vencida_Agencia,12.0,Cecilio,5. Viernes,4. Noche,1.0,0.0,Normal,Alto
+433433336837,2934.18,94,Vencida_Agencia,15.0,Cecilio,5. Viernes,4. Noche,1.0,0.0,Normal,Alto
+433433337936,915.84,87,Vencida_Agencia,0.0,Cecilio,5. Viernes,4. Noche,1.0,0.0,Normal,Alto
+433433337085,924.0,73,Vencida_Agencia,9.0,Cecilio,5. Viernes,4. Noche,1.0,0.0,Normal,Alto
+433433338397,1478.48,73,Vencida_Agencia,2.0,Cecilio,5. Viernes,4. Noche,1.0,0.0,Normal,Alto
+433433338698,3850.67,66,Vencida_Agencia,5.0,Cecilio,5. Viernes,4. Noche,1.0,0.0,Normal,Alto
+433433338999,4725.62,63,Vencida_Agencia,0.0,Cecilio,5. Viernes,4. Noche,1.0,0.0,Normal,Alto
+433433339649,3073.34,53,Vencido,3.0,Cecilio,5. Viernes,4. Noche,1.0,0.0,Intenso - 5,Default
+433433339431,22.7,9,Retrasado,43.0,Cecilio,5. Viernes,3. Tarde,1.0,1.0,Normal,Default
+433433338613,1383.95,39,Vencido,5.0,Cecilio,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433339985,1213.79,9,Retrasado,0.0,Cecilio,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433336609,1671.39,28,Vencido,0.0,Cecilio,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433339145,1138.18,22,Vencido,8.0,Cecilio,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433336847,1799.61,7,Reactivo,129.0,Cecilio,5. Viernes,3. Tarde,1.0,1.0,Normal,Default
+433433334319,885.17,14,Retrasado,0.0,Cecilio,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433337659,512.27,9,Retrasado,5.0,Cecilio,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433339145,1138.18,22,Vencido,0.0,Cecilio,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433334085,701.11,4,Reactivo,53.0,Cecilio,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433336847,1799.61,7,Reactivo,97.0,Cecilio,5. Viernes,3. Tarde,1.0,1.0,Normal,Default
+433433338061,1541.98,21,Retrasado,0.0,Cecilio,5. Viernes,3. Tarde,1.0,0.0,Normal,Default
+433433338898,1284.83,49,Vencido,11.0,Cecilio,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433339813,1284.83,49,Vencido,0.0,Cecilio,5. Viernes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433339339,1108.86,63,Vencido,16.0,Jorge,4. Jueves,4. Noche,1.0,0.0,Normal,Default
+433433338645,4089.8,70,Vencido,3.0,Cecilio,4. Jueves,4. Noche,1.0,0.0,Normal,Default
+433433335488,3403.24,57,Vencido,3.0,Jorge,4. Jueves,4. Noche,1.0,0.0,Normal,Default
+433433335761,2883.08,96,Vencida_Agencia,6.0,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Alto
+433433335706,2152.15,87,Vencida_Agencia,66.0,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Alto
+433433335719,1831.68,108,Vencida_Agencia,11.0,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Alto
+433433335722,2477.8,83,Vencida_Agencia,11.0,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Alto
+433433338340,3408.37,53,Vencido,0.0,Jorge,4. Jueves,4. Noche,1.0,0.0,Normal,Default
+433433338674,2289.79,39,Vencido,12.0,Jorge,4. Jueves,4. Noche,1.0,0.0,Normal,Default
+433433339733,7793.67,53,Vencido,10.0,Jorge,4. Jueves,4. Noche,1.0,0.0,Normal,Default
+433433336496,2671.87,80,Vencida_Agencia,24.0,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Alto
+433433336010,915.84,94,Vencida_Agencia,11.0,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Alto
+433433337774,915.84,87,Vencida_Agencia,9.0,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Alto
+433433337085,924.0,73,Vencida_Agencia,6.0,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Alto
+433433334085,701.11,4,Reactivo,31.0,Jorge,4. Jueves,4. Noche,1.0,0.0,Normal,Default
+433433338397,1478.48,73,Vencida_Agencia,2.0,Cecilio,4. Jueves,4. Noche,1.0,0.0,Intenso - 7,Alto
+433433339807,743.04,13,Retrasado,63.0,Jorge,4. Jueves,4. Noche,1.0,1.0,Normal,Default
+433433335631,2380.34,70,Vencido,27.0,Jorge,4. Jueves,4. Noche,1.0,0.0,Normal,Default
+433433336847,1799.61,7,Reactivo,8.0,Jorge,4. Jueves,4. Noche,1.0,0.0,Normal,Default
+433433330485,825.51,21,Retrasado,18.0,Jorge,4. Jueves,4. Noche,1.0,0.0,Normal,Default
+433433334905,3651.89,24,Vencido,16.0,Jorge,4. Jueves,4. Noche,1.0,0.0,Normal,Default
+433433337659,512.27,9,Retrasado,1.0,Jorge,4. Jueves,4. Noche,1.0,0.0,Normal,Default
+433433338674,2289.79,39,Vencido,11.0,Jorge,4. Jueves,4. Noche,1.0,0.0,Normal,Default
+433433339733,7793.67,53,Vencido,0.0,Jorge,4. Jueves,4. Noche,1.0,0.0,Normal,Default
+433433339649,3073.34,53,Vencido,2.0,Cecilio,4. Jueves,4. Noche,1.0,0.0,Normal,Default
+433433338520,36509.69,79,Vencido,4.0,Jorge,4. Jueves,4. Noche,1.0,0.0,Normal,Default
+433433339867,2697.53,56,Vencido,0.0,Cecilio,4. Jueves,4. Noche,1.0,0.0,Normal,Default
+433433333453,3739.99,97,Vencida_Agencia,5.0,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Alto
+433433333746,3171.52,132,Vencida_Agencia,117.0,Cecilio,4. Jueves,3. Tarde,1.0,1.0,Intenso - 7,Alto
+433433333889,4166.4,126,Vencida_Agencia,11.0,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Alto
+433433334660,13110.86,66,Vencida_Agencia,8.0,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Alto
+433433334755,4166.4,126,Vencida_Agencia,4.0,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Alto
+433433334774,4166.4,111,Vencida_Agencia,24.0,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Alto
+433433334083,3934.6,126,Vencida_Agencia,11.0,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Alto
+433433335478,4080.91,96,Vencida_Agencia,7.0,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Alto
+433433335706,2152.15,87,Vencida_Agencia,12.0,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Alto
+433433336312,2538.29,83,Vencida_Agencia,4.0,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Alto
+433433336464,3067.16,96,Vencida_Agencia,24.0,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Alto
+433433336964,2727.18,70,Vencida_Agencia,11.0,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Alto
+433433336280,730.66,91,Vencida_Agencia,22.0,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Alto
+433433337085,924.0,73,Vencida_Agencia,2.0,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Alto
+433433338397,1478.48,73,Vencida_Agencia,2.0,Cecilio,4. Jueves,3. Tarde,1.0,0.0,Intenso - 7,Alto
+433433336412,1769.51,74,Vencida_Agencia,9.0,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433336837,2934.18,94,Vencida_Agencia,4.0,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433336964,2727.18,70,Vencida_Agencia,7.0,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433333404,383.87,6,Reactivo,0.0,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Normal,Default
+433433334791,536.19,22,Vencido,143.0,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Normal,Default
+433433339776,2356.06,22,Vencido,44.0,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Normal,Default
+433433338560,5881.82,66,Vencida_Agencia,2.0,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433338500,4820.35,66,Vencida_Agencia,7.0,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433338698,3850.67,66,Vencida_Agencia,41.0,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433338999,4725.62,63,Vencida_Agencia,4.0,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433339895,1560.4,22,Vencido,9.0,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Normal,Default
+433433337659,512.27,9,Retrasado,50.0,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Normal,Default
+433433338125,340.29,9,Retrasado,6.0,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Normal,Default
+433433339641,559.64,9,Retrasado,6.0,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Normal,Default
+433433338061,1541.98,21,Retrasado,0.0,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Normal,Default
+433433338645,4089.8,70,Vencido,2.0,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Normal,Default
+433433337659,512.27,9,Retrasado,46.0,Cecilio,3. Miercoles,4. Noche,1.0,1.0,Normal,Default
+433433336666,387.92,9,Retrasado,21.0,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Normal,Default
+433433339733,7793.67,53,Vencido,11.0,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Normal,Default
+433433339649,3073.34,53,Vencido,2.0,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Normal,Default
+433433339844,1520.38,39,Vencido,0.0,Cecilio,3. Miercoles,4. Noche,1.0,0.0,Normal,Default
+433433338898,1284.83,49,Vencido,26.0,Cecilio,3. Miercoles,3. Tarde,1.0,0.0,Normal,Default
+433433339733,7793.67,53,Vencido,6.0,Cecilio,3. Miercoles,3. Tarde,1.0,0.0,Normal,Default
+433433338693,2944.81,70,Vencido,0.0,Cecilio,3. Miercoles,3. Tarde,1.0,1.0,Normal,Default
+433433339813,1284.83,49,Vencido,0.0,Cecilio,3. Miercoles,3. Tarde,1.0,0.0,Normal,Default
+433433334905,3651.89,24,Vencido,0.0,Cecilio,3. Miercoles,3. Tarde,1.0,1.0,Normal,Default
+433433338613,1383.95,39,Vencido,6.0,Cecilio,3. Miercoles,3. Tarde,1.0,0.0,Normal,Default
+433433336767,2380.65,77,Vencida_Agencia,13.0,Cecilio,2. Martes,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433336837,2934.18,94,Vencida_Agencia,10.0,Cecilio,2. Martes,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433337085,924.0,73,Vencida_Agencia,5.0,Cecilio,2. Martes,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433338356,3667.55,66,Vencida_Agencia,11.0,Cecilio,2. Martes,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433338397,1478.48,73,Vencida_Agencia,0.0,Cecilio,2. Martes,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433338487,1293.68,80,Vencida_Agencia,7.0,Cecilio,2. Martes,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433335631,2380.34,70,Vencido,4.0,Cecilio,2. Martes,4. Noche,1.0,0.0,Intenso - 5,Alto
+433433338645,4089.8,70,Vencido,2.0,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433338693,2944.81,70,Vencido,0.0,Cecilio,2. Martes,3. Tarde,1.0,1.0,Intenso - 5,Default
+433433335631,2380.34,70,Vencido,11.0,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433338674,2289.79,39,Vencido,11.0,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433338645,4089.8,70,Vencido,0.0,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433339867,2697.53,56,Vencido,5.0,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433338674,2289.79,39,Vencido,3.0,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433338645,4089.8,70,Vencido,3.0,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433338693,2944.81,70,Vencido,11.0,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433338898,1284.83,49,Vencido,12.0,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433338674,2289.79,39,Vencido,3.0,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433338143,2117.43,42,Vencido,10.0,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433338415,1877.34,70,Vencido,2.0,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Default
+433433335488,3403.24,57,Vencido,18.0,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433336609,1671.39,28,Vencido,24.0,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433338674,2289.79,39,Vencido,8.0,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433338674,2289.79,39,Vencido,9.0,Cecilio,2. Martes,3. Tarde,1.0,0.0,Intenso - 5,Alto
+433433334145,464.6,5,Reactivo,3.0,Cecilio,2. Martes,1. Mañana,1.0,0.0,Normal,Default
+433433339818,566.62,5,Reactivo,37.0,Cecilio,2. Martes,1. Mañana,1.0,0.0,Normal,Default
+433433339641,559.64,9,Retrasado,4.0,Cecilio,2. Martes,1. Mañana,1.0,0.0,Normal,Default
+433433333596,443.85,5,Reactivo,0.0,Cecilio,2. Martes,1. Mañana,1.0,0.0,Normal,Default
