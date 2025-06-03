@@ -1,0 +1,228 @@
+id_ally,probabilidad_estimada,dia_recomendado,rango_hora_recomendado,voz_recomendada,intensidad_recomendada,prompt_recomendado
+433433335631,0.41,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433339339,0.34,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433338898,0.31,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433333319,0.384,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433333969,0.66,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433334660,0.42,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433334755,0.4292,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433334975,0.405,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433334044,0.4257,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433335478,0.45,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433335723,0.59,2. Martes,2. Mediodia,Cecilio,Intenso,Default
+433433338693,0.55,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433335488,0.48,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433333974,0.46,3. Miercoles,3. Tarde,Beatriz,Normal,Default
+433433335260,0.14,5. Viernes,1.Mañana,Santiago,Intenso,Alto
+433433333552,0.4192,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433337514,0.58,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433335190,0.51,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433334692,0.405,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433334083,0.405,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433334110,0.405,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433335364,0.71,5. Viernes,4. Noche,Cecilio,Normal,Alto
+433433338674,0.13,4. Jueves,1.Mañana,Renato,Intenso,Alto
+433433333387,0.399,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433336101,0.35,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433338999,0.4467,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433338487,0.36,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433334389,0.41,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433334735,0.4382,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433334069,0.399,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433338061,0.15,5. Viernes,1.Mañana,Santiago,Intenso,Alto
+433433335763,0.31,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433337651,0.35,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433337085,0.33,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433337326,0.48,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433337272,0.33,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433338083,0.6967,1. Lunes,3. Tarde,Renato,Intenso,Default
+433433330686,0.54,1. Lunes,3. Tarde,Renato,Intenso,Default
+433433336098,0.391,1. Lunes,2. Mediodia,Renato,Intenso,Alto
+433433339985,0.27,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433336496,0.64,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433339478,0.2,5. Viernes,1.Mañana,Santiago,Normal,Alto
+433433333907,0.5,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433338397,0.33,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433338698,0.48,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433339145,0.21,5. Viernes,1.Mañana,Santiago,Intenso,Alto
+433433334774,0.44,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433335538,0.33,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433336964,0.62,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433334135,0.55,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433337324,0.35,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433334490,0.3,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433334554,0.66,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433334637,0.58,5. Viernes,3. Tarde,Santiago,Intenso,Alto
+433433334716,0.45,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433338645,0.4867,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433337311,0.14,5. Viernes,1.Mañana,Santiago,Intenso,Alto
+433433339867,0.57,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433337081,0.4167,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433334573,0.42,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433339733,0.43,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433330651,0.4852,5. Viernes,3. Tarde,Renato,Normal,Default
+433433330519,0.6717,5. Viernes,3. Tarde,Renato,Normal,Default
+433433335722,0.49,2. Martes,2. Mediodia,Cecilio,Intenso,Default
+433433336703,0.5,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433338448,0.4667,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433333178,0.1467,5. Viernes,1.Mañana,Cecilio,Normal,Alto
+433433336859,0.516,1. Lunes,2. Mediodia,Renato,Intenso,Alto
+433433336321,0.33,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433339776,0.2,3. Miercoles,3. Tarde,Beatriz,Normal,Default
+433433330496,0.355,2. Martes,3. Tarde,Cecilio,Normal,Default
+433433338886,0.62,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433338774,0.1417,5. Viernes,1.Mañana,Renato,Normal,Alto
+433433336666,0.46,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433335284,0.49,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433338356,0.49,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433338340,0.45,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433338613,0.15,5. Viernes,1.Mañana,Santiago,Intenso,Alto
+433433335014,0.67,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433335121,0.4567,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433336412,0.35,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433338125,0.42,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433334791,0.17,5. Viernes,1.Mañana,Santiago,Intenso,Alto
+433433333171,0.2067,5. Viernes,1.Mañana,Santiago,Normal,Alto
+433433338520,0.454,1. Lunes,1.Mañana,Beatriz,Normal,Default
+33433333651,0.7,1. Lunes,2. Mediodia,Renato,Intenso,Alto
+433433336637,0.22,5. Viernes,1.Mañana,Santiago,Intenso,Alto
+433433338905,0.5167,1. Lunes,3. Tarde,Renato,Intenso,Default
+433433339444,0.4167,3. Miercoles,3. Tarde,Beatriz,Normal,Default
+433433339720,0.5075,4. Jueves,4. Noche,Renato,Normal,Default
+433433339818,0.19,5. Viernes,1.Mañana,Santiago,Intenso,Alto
+433433333596,0.5608,3. Miercoles,3. Tarde,Renato,Normal,Default
+433433334366,0.391,1. Lunes,2. Mediodia,Renato,Intenso,Alto
+433433334021,0.6575,5. Viernes,3. Tarde,Renato,Normal,Default
+433433336820,0.461,1. Lunes,1.Mañana,Renato,Intenso,Alto
+433433336188,0.406,1. Lunes,1.Mañana,Renato,Intenso,Alto
+433433337659,0.433,5. Viernes,1.Mañana,Renato,Intenso,Alto
+433433337868,0.481,4. Jueves,1.Mañana,Renato,Intenso,Alto
+433433338591,0.42,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433338701,0.12,4. Jueves,1.Mañana,Renato,Intenso,Alto
+433433339544,0.4485,3. Miercoles,3. Tarde,Renato,Normal,Default
+433433339563,0.5633,5. Viernes,3. Tarde,Renato,Normal,Default
+433433339572,0.6675,5. Viernes,3. Tarde,Renato,Normal,Default
+433433339520,0.3948,1. Lunes,2. Mediodia,Renato,Intenso,Alto
+433433339649,0.125,4. Jueves,1.Mañana,Renato,Intenso,Alto
+433433339936,0.4738,5. Viernes,3. Tarde,Renato,Normal,Default
+433433339916,0.3948,1. Lunes,2. Mediodia,Renato,Intenso,Alto
+433433339081,0.3948,1. Lunes,2. Mediodia,Renato,Intenso,Alto
+433433339163,0.4865,5. Viernes,3. Tarde,Santiago,Normal,Default
+433433339250,0.404,1. Lunes,2. Mediodia,Renato,Intenso,Alto
+433433339222,0.463,5. Viernes,3. Tarde,Renato,Normal,Default
+433433330485,0.451,1. Lunes,2. Mediodia,Renato,Intenso,Alto
+433433338154,0.436,1. Lunes,2. Mediodia,Renato,Intenso,Alto
+433433333166,0.57,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433334530,0.54,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433338831,0.436,1. Lunes,2. Mediodia,Renato,Intenso,Alto
+433433338014,0.5517,1. Lunes,3. Tarde,Renato,Intenso,Default
+433433339431,0.21,5. Viernes,1.Mañana,Santiago,Intenso,Alto
+433433339045,0.63,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433339135,0.381,1. Lunes,1.Mañana,Renato,Intenso,Alto
+433433338752,0.4367,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433338993,0.4,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433338126,0.22,5. Viernes,1.Mañana,Santiago,Intenso,Alto
+433433333390,0.484,4. Jueves,1.Mañana,Beatriz,Normal,Default
+433433333453,0.43,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433333796,0.43,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433334714,0.31,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433335669,0.394,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433335743,0.464,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433335750,0.379,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433335719,0.29,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433335197,0.47,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433337707,0.35,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433339844,0.18,5. Viernes,1.Mañana,Santiago,Intenso,Alto
+433433334332,0.48,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433334739,0.4292,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433335365,0.71,5. Viernes,4. Noche,Cecilio,Normal,Alto
+433433335739,0.49,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433335706,0.405,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433335237,0.394,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433336280,0.4,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433333931,0.5,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433334949,0.24,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433336609,0.49,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433334905,0.585,1. Lunes,3. Tarde,Beatriz,Normal,Default
+433433338143,0.21,5. Viernes,1.Mañana,Santiago,Intenso,Alto
+433433333746,0.71,4. Jueves,3. Tarde,Cecilio,Normal,Default
+433433333889,0.4292,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433333273,0.56,5. Viernes,4. Noche,Cecilio,Normal,Alto
+433433335158,0.2867,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433335238,0.44,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433335245,0.444,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433336595,0.49,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433336010,0.32,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433334971,0.4292,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433334003,0.4292,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433335416,0.22,3. Miercoles,3. Tarde,Beatriz,Normal,Default
+433433338415,0.34,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433336599,0.49,2. Martes,2. Mediodia,Cecilio,Intenso,Default
+433433336767,0.41,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433336274,0.33,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433335950,0.54,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433338500,0.4467,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433333386,0.4148,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433333733,0.405,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433334425,0.399,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433335382,0.42,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433335918,0.43,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433336968,0.454,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433339810,0.51,3. Miercoles,3. Tarde,Beatriz,Normal,Default
+433433339550,0.1,5. Viernes,1.Mañana,Santiago,Intenso,Alto
+433433334276,0.46,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433338911,0.3,1. Lunes,3. Tarde,Beatriz,Normal,Default
+433433336922,0.79,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433339970,0.3953,5. Viernes,1.Mañana,Renato,Intenso,Alto
+433433339910,0.68,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433339482,0.3853,5. Viernes,1.Mañana,Renato,Intenso,Alto
+433433330405,0.4263,5. Viernes,3. Tarde,Renato,Normal,Default
+433433333686,0.431,1. Lunes,1.Mañana,Renato,Intenso,Alto
+433433336312,0.57,2. Martes,2. Mediodia,Cecilio,Intenso,Default
+433433334319,0.436,1. Lunes,1.Mañana,Renato,Intenso,Alto
+433433330528,0.5047,5. Viernes,3. Tarde,Renato,Normal,Default
+433433334910,0.416,1. Lunes,2. Mediodia,Renato,Intenso,Alto
+433433338616,0.446,1. Lunes,1.Mañana,Renato,Intenso,Alto
+433433339746,0.386,5. Viernes,1.Mañana,Renato,Intenso,Alto
+433433339716,0.5047,5. Viernes,3. Tarde,Renato,Normal,Default
+433433334219,0.41,1. Lunes,3. Tarde,Beatriz,Normal,Default
+433433333991,0.54,5. Viernes,4. Noche,Cecilio,Normal,Alto
+433433339726,0.3853,5. Viernes,1.Mañana,Renato,Intenso,Alto
+433433339293,0.3853,5. Viernes,1.Mañana,Renato,Intenso,Alto
+433433334346,0.4283,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433334645,0.6,4. Jueves,4. Noche,Cecilio,Intenso,Default
+433433339641,0.4458,3. Miercoles,3. Tarde,Renato,Normal,Default
+433433339269,0.4215,5. Viernes,3. Tarde,Renato,Normal,Default
+433433335668,0.3,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433336792,0.58,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433336837,0.53,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433338846,0.38,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433339813,0.11,5. Viernes,1.Mañana,Santiago,Intenso,Alto
+433433330678,0.78,5. Viernes,3. Tarde,Cecilio,Normal,Default
+433433338874,0.31,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433336278,0.15,1. Lunes,1.Mañana,Beatriz,Normal,Alto
+433433338688,0.47,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433334195,0.5208,5. Viernes,3. Tarde,Renato,Normal,Default
+433433335137,0.7325,5. Viernes,3. Tarde,Cecilio,Normal,Default
+433433339025,0.3853,5. Viernes,1.Mañana,Renato,Intenso,Alto
+433433339766,0.461,1. Lunes,2. Mediodia,Renato,Intenso,Alto
+433433330582,0.46,5. Viernes,3. Tarde,Renato,Normal,Default
+433433335903,0.4798,5. Viernes,3. Tarde,Renato,Normal,Default
+433433338962,0.23,3. Miercoles,3. Tarde,Beatriz,Normal,Default
+433433335305,0.44,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433339895,0.29,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433337260,0.431,1. Lunes,2. Mediodia,Renato,Intenso,Alto
+433433330617,0.4985,5. Viernes,3. Tarde,Renato,Normal,Default
+433433335361,0.51,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433334085,0.66,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433336847,0.9,5. Viernes,3. Tarde,Cecilio,Normal,Default
+433433330385,0.62,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433338760,0.57,3. Miercoles,3. Tarde,Beatriz,Normal,Default
+433433337936,0.35,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433335761,0.53,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433337774,0.35,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433339807,0.61,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433336464,0.49,3. Miercoles,1.Mañana,Beatriz,Normal,Default
+433433333404,0.5367,1. Lunes,3. Tarde,Renato,Intenso,Default
+433433338560,0.4367,1. Lunes,1.Mañana,Beatriz,Normal,Default
+433433334145,0.415,5. Viernes,3. Tarde,Renato,Normal,Default
