@@ -1,5 +1,4 @@
 import pandas as pd
-import seaborn as sns
 import matplotlib.pyplot as plt
 import streamlit as st
 import plotly.express as px
@@ -9,16 +8,18 @@ from sklearn.preprocessing import LabelEncoder
 from itertools import product
 from collections import defaultdict
 import plotly.graph_objects as go
+import numpy as np
 
 
 st.set_page_config(page_title="Dashboard de Llamadas", layout="wide", initial_sidebar_state="expanded")
 
-seccion = st.sidebar.selectbox("Selecciona una sección:", ["Dashboard de Llamadas", "Recomendador de Interacciones con Clientes"])
+seccion = st.sidebar.selectbox("Selecciona una sección:", ["Dashboard de Llamadas", "Sistema de recomendación"])
 
 
 try:
-    df = pd.read_csv("mi_archivo (2).csv")
+    df = pd.read_csv("mi_archivo().csv")
     dfDias = df.copy()  
+    dfCosto = df.copy()
     df.columns = df.columns.str.strip()  
     st.sidebar.success("Datos cargados correctamente.")
 except Exception as e:
@@ -34,155 +35,192 @@ if seccion == "Dashboard de Llamadas":
     df["Engagement"] = df["Llamada_Contestada"] + df["Promesa_de_Pago"]
 
 
-    st.write("Primeras filas del DataFrame:")
-    st.dataframe(df.head())
+    with st.expander("Ver primeras filas del DataFrame:"):
+        st.dataframe(df.head(), use_container_width=True)
 
-    #FILTROS
-    st.sidebar.header("Filtros")
 
-    dias = st.sidebar.multiselect(
-        "Selecciona Día(s) de la Semana:",
-        options=df["Dia_Semana"].dropna().unique(),
-        default=df["Dia_Semana"].dropna().unique()
-    )
-
-    rangos = st.sidebar.multiselect(
-        "Selecciona Rango(s) Horario:",
-        options=df["Rango_Hora"].dropna().unique(),
-        default=df["Rango_Hora"].dropna().unique()
-    )
-
-    
-    df_filtrado = df[
-        (df["Dia_Semana"].isin(dias)) &
-        (df["Rango_Hora"].isin(rangos))
-    ]
+    with st.popover("Filtros"):
+            dias_tabla= st.multiselect(
+                "Dia(s):", df["Dia_Semana"].dropna().unique(), default=df["Dia_Semana"].dropna().unique(), key="dias_tabla"
+        )
+            rangos_tabla = st.multiselect(
+            "Rango(s) horario:", df["Rango_Hora"].dropna().unique(), default=df["Rango_Hora"].dropna().unique(), key="rangos_tabla"
+        )
+    df_tabla = df[(df["Dia_Semana"].isin(dias_tabla)) & (df["Rango_Hora"].isin(rangos_tabla))]
 
     #TABLA RESUMEN
-    grouped_filtrado_tabla = df_filtrado.groupby(["Dia_Semana", "Rango_Hora"]).agg({
-        "Promesa_de_Pago": "sum",
-        "Llamada_Contestada": "sum",
-        "ID Ally": "count"
-    }).rename(columns={"ID Ally": "Total Llamadas"}).reset_index()
+    st.markdown("Tabla Resumen: Día de la Semana y Rango Horario")
+    with st.container():
+        grouped_tabla = df_tabla.groupby(["Dia_Semana", "Rango_Hora"]).agg({
+            "Promesa_de_Pago": "sum",
+            "Llamada_Contestada": "sum",
+            "ID Ally": "count"
+        }).rename(columns={"ID Ally": "Total Llamadas"}).reset_index()
 
-    grouped_filtrado_tabla["Tasa Promesa"] = grouped_filtrado_tabla["Promesa_de_Pago"] / grouped_filtrado_tabla["Total Llamadas"]
-    grouped_filtrado_tabla["Tasa Contestación"] = grouped_filtrado_tabla["Llamada_Contestada"] / grouped_filtrado_tabla["Total Llamadas"]
+        grouped_tabla["Tasa Promesa"] = grouped_tabla["Promesa_de_Pago"] / grouped_tabla["Total Llamadas"]
+        grouped_tabla_vista = grouped_tabla.drop(columns=["Llamada_Contestada", "Tasa Promesa"])
+                                                         
+        st.dataframe(grouped_tabla.head(20), use_container_width=True)
+        st.info("Ejemplo:Lunes + Mañana → 21 llamadas, 4 promesas de pago (19% de efectividad), en todo el período los lunes por la mañana.")
 
-    st.subheader("Tabla Resumen: Día de la Semana y Rango Horario")
-    st.dataframe(grouped_filtrado_tabla.head(20))
-    st.text("Lunes + Mañana = En todo el período se hicieron 21 llamadas los lunes por la mañana, de las cuales 4 prometieron pagar (19% de efectividad). Esto te indica que los lunes por la mañana son un buen horario para llamar comparado con otros momentos.")
+    with st.popover("Filtros"):
+        dias_comunes = st.multiselect(
+            "Día(s):", df["Dia_Semana"].dropna().unique(),
+            default=df["Dia_Semana"].dropna().unique(),
+            key="dias_comunes"
+        )
+        rangos_comunes = st.multiselect(
+            "Rango(s):", df["Rango_Hora"].dropna().unique(),
+            default=df["Rango_Hora"].dropna().unique(),
+            key="rangos_comunes"
+        )
 
-    # HEATMAP
-    st.subheader("Heatmap: Tasa de Promesa de Pago (filtrado)")
+    df_filtros_tabs = df[
+        (df["Dia_Semana"].isin(dias_comunes)) &
+        (df["Rango_Hora"].isin(rangos_comunes))
+    ]
 
-    grouped_filtrado = df_filtrado.groupby(["Dia_Semana", "Rango_Hora"]).agg({
-        "Promesa_de_Pago": "sum",
-        "ID Ally": "count"
-    }).rename(columns={"ID Ally": "Total Llamadas"}).reset_index()
+    tab1, tab2 = st.tabs(["Heatmap", "Conteo por Día y Rango"])
+       
+    with tab1:
+        st.markdown("### Heatmap: Tasa de Promesa de Pago (filtrado)")
 
-    grouped_filtrado["Tasa Promesa"] = grouped_filtrado["Promesa_de_Pago"] / grouped_filtrado["Total Llamadas"]
+        grouped_filtrado = df_filtros_tabs.groupby(["Dia_Semana", "Rango_Hora"]).agg({
+            "Promesa_de_Pago": "sum",
+            "ID Ally": "count"
+        }).rename(columns={"ID Ally": "Total Llamadas"}).reset_index()
 
-    pivot_promesa = grouped_filtrado.pivot(index="Dia_Semana", columns="Rango_Hora", values="Tasa Promesa")
+        grouped_filtrado["Tasa Promesa"] = grouped_filtrado["Promesa_de_Pago"] / grouped_filtrado["Total Llamadas"]
+        pivot_promesa = grouped_filtrado.pivot(index="Dia_Semana", columns="Rango_Hora", values="Tasa Promesa")
 
-    fig1, ax1 = plt.subplots(figsize=(12, 6))
-    sns.heatmap(pivot_promesa, annot=True, fmt=".2f", cmap="YlGnBu", ax=ax1)
-    ax1.set_title("Tasa de Promesa de Pago por Día de la Semana y Rango Horario (Filtrado)")
-    ax1.set_xlabel("Rango Horario")
-    ax1.set_ylabel("Día de la Semana")
-    plt.xticks(rotation=45)
-    st.pyplot(fig1)
+        fig, ax = plt.subplots(figsize=(12, 6))
+        im = ax.imshow(pivot_promesa.values, cmap="YlGnBu", aspect="auto")
 
-    #Conteo por Día y Rango
-    st.subheader("Conteo de llamadas por Día de la Semana y Rango Horario")
-    fig2, ax2 = plt.subplots(figsize=(10, 6))
-    sns.countplot(data=df_filtrado, x='Dia_Semana', hue='Rango_Hora', ax=ax2, palette="Blues", edgecolor='black')
-    ax2.set_title('Conteo de llamadas por Día de la Semana y Rango Horario (Filtrado)')
-    ax2.set_xlabel('Día de la Semana')
-    ax2.set_ylabel('Conteo de Llamadas')
-    plt.xticks(rotation=45)
-    st.pyplot(fig2)
+        # Etiquetas de ejes
+        ax.set_xticks(np.arange(len(pivot_promesa.columns)))
+        ax.set_xticklabels(pivot_promesa.columns, rotation=45, ha="right")
+        ax.set_yticks(np.arange(len(pivot_promesa.index)))
+        ax.set_yticklabels(pivot_promesa.index)
 
-    #PIE CHART
-    conteo = df['Promesa_de_Pago'].value_counts().reset_index()
-    conteo.columns = ['Promesa_de_Pago', 'Count']
-    conteo['Promesa_de_Pago'] = conteo['Promesa_de_Pago'].map({1: 'Promesa de Pago', 0: 'Sin Promesa'})
+        ax.set_title("Tasa de Promesa de Pago por Día de la Semana y Rango Horario (Filtrado)")
+        ax.set_xlabel("Rango Horario")
+        ax.set_ylabel("Día de la Semana")
 
-    fig3 = px.pie(
-        conteo,
-        values='Count',
-        names='Promesa_de_Pago',
-        title='Distribución de Promesas de Pago',
-        hole=0.3
-    )
-    fig3.update_traces(textinfo='percent+label')
-    st.plotly_chart(fig3)
+        # Anotaciones en cada celda
+        for i in range(len(pivot_promesa.index)):
+            for j in range(len(pivot_promesa.columns)):
+                val = pivot_promesa.iloc[i, j]
+                if not np.isnan(val):
+                    ax.text(j, i, f"{val:.2f}", ha="center", va="center", color="black")
 
-    # TASA por INTENSIDAD
-    st.subheader("Tasa de Promesa de Pago por Intensidad de Llamada")
+        fig.colorbar(im, ax=ax)
+        st.pyplot(fig)
 
-    intensity_group = df.groupby("Intensidad").agg(
-        promesas=("Promesa_de_Pago", "sum"),
-        llamadas=("ID Ally", "count")
-    ).reset_index()
+    with tab2:
+        st.markdown("### Conteo de llamadas por Día de la Semana y Rango Horario")
 
-    intensity_group["Tasa Promesa"] = intensity_group["promesas"] / intensity_group["llamadas"]
+        # Crear tabla resumen para el gráfico
+        conteo = df_filtros_tabs.groupby(['Dia_Semana', 'Rango_Hora']).size().unstack(fill_value=0)
 
-    fig = px.bar(
-        intensity_group,
-        x="Intensidad",
-        y="Tasa Promesa",
-        text="Tasa Promesa",
-        title="Tasa de Promesa de Pago por Intensidad de Llamada",
-        labels={"Tasa Promesa": "Tasa de Promesa de Pago"}
-    )
-    st.plotly_chart(fig)
+        # Orden de las categorías si se desea (ajusta según tus datos)
+        if isinstance(conteo.index[0], str):
+            dias_orden = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo']
+            conteo = conteo.reindex(index=[d for d in dias_orden if d in conteo.index])
+
+        # Gráfico
+        fig2, ax2 = plt.subplots(figsize=(10, 6))
+        bottom = np.zeros(len(conteo))
+
+        for rango in conteo.columns:
+            valores = conteo[rango].values
+            ax2.bar(conteo.index, valores, bottom=bottom, label=rango, edgecolor='black')
+            bottom += valores
+
+        ax2.set_title('Conteo de llamadas por Día de la Semana y Rango Horario (Filtrado)')
+        ax2.set_xlabel('Día de la Semana')
+        ax2.set_ylabel('Conteo de Llamadas')
+        plt.xticks(rotation=45)
+        ax2.legend(title="Rango Horario")
+
+        st.pyplot(fig2)
+        
+    st.subheader("Data: Promesas de Pago")
+    tab3, tab4 = st.tabs(["Distribución Promesas", "Tasa por Intensidad"])
+    with tab3:
+        conteo = df['Promesa_de_Pago'].value_counts().reset_index()
+        conteo.columns = ['Promesa_de_Pago', 'Count']
+        conteo['Promesa_de_Pago'] = conteo['Promesa_de_Pago'].map({1: 'Promesa de Pago', 0: 'Sin Promesa'})
+
+        fig3 = px.pie(conteo, values='Count', names='Promesa_de_Pago', title='Distribución de Promesas de Pago', hole=0.3)
+        fig3.update_traces(textinfo='percent+label')
+        st.plotly_chart(fig3, use_container_width=True)
+
+    with tab4:
+        intensity_group = df.groupby("Intensidad").agg(
+            promesas=("Promesa_de_Pago", "sum"),
+            llamadas=("ID Ally", "count")
+        ).reset_index()
+
+        intensity_group["Tasa Promesa"] = intensity_group["promesas"] / intensity_group["llamadas"]
+
+        fig4 = px.bar(
+            intensity_group,
+            x="Intensidad",
+            y="Tasa Promesa",
+            text=intensity_group["Tasa Promesa"].apply(lambda x: f"{x:.2%}"),
+            title="Tasa de Promesa de Pago por Intensidad de Llamada",
+            labels={"Tasa Promesa": "Tasa de Promesa de Pago"}
+        )
+        fig4.update_traces(textposition='outside')
+        fig4.update_layout(yaxis_tickformat=".0%")
+        st.plotly_chart(fig4, use_container_width=True)
 
     #  HISTOGRAMA
-    st.subheader("Histograma: Días de Atraso con Tasa de Promesa de Pago")
-    df['Dias_de_atraso_bin'] = pd.cut(df['Dias_de_atraso'], bins=20)
-    grupo = df.groupby('Dias_de_atraso_bin').agg(
-        total_llamadas=('Promesa_de_Pago', 'count'),
-        promesas=('Promesa_de_Pago', 'sum')
-    ).reset_index()
 
-    grupo['tasa_promesa'] = grupo['promesas'] / grupo['total_llamadas']
-    grupo['bin_centro'] = grupo['Dias_de_atraso_bin'].apply(lambda x: x.mid)
-    grupo_filtrado = grupo[grupo['total_llamadas'] >= 10]
+    with st.container():
+        st.subheader("Histograma: Días de Atraso con Tasa de Promesa de Pago")
+        df['Dias_de_atraso_bin'] = pd.cut(df['Dias_de_atraso'], bins=20)
+        grupo = df.groupby('Dias_de_atraso_bin').agg(
+            total_llamadas=('Promesa_de_Pago', 'count'),
+            promesas=('Promesa_de_Pago', 'sum')
+        ).reset_index()
 
-    fig, ax1 = plt.subplots(figsize=(10, 6))
-    ax1.hist(df['Dias_de_atraso'].dropna(), bins=20, color='steelblue', edgecolor='black', alpha=0.6)
-    ax1.set_xlabel('Días de Atraso')
-    ax1.set_ylabel('Frecuencia', color='steelblue')
-    ax1.tick_params(axis='y', labelcolor='steelblue')
+        grupo['tasa_promesa'] = grupo['promesas'] / grupo['total_llamadas']
+        grupo['bin_centro'] = grupo['Dias_de_atraso_bin'].apply(lambda x: x.mid)
+        grupo_filtrado = grupo[grupo['total_llamadas'] >= 10]
 
-    ax2 = ax1.twinx()
-    ax2.plot(grupo_filtrado['bin_centro'], grupo_filtrado['tasa_promesa'], color='red', marker='o', label='Tasa de Promesa')
-    ax2.set_ylabel('Tasa de Promesa de Pago', color='red')
-    ax2.tick_params(axis='y', labelcolor='red')
-    ax2.set_ylim(0, 0.5)  # escalar para evitar picos falsos
+        fig, ax1 = plt.subplots(figsize=(10, 6))
+        ax1.hist(df['Dias_de_atraso'].dropna(), bins=20, color='steelblue', edgecolor='black', alpha=0.6)
+        ax1.set_xlabel('Días de Atraso')
+        ax1.set_ylabel('Frecuencia', color='steelblue')
+        ax1.tick_params(axis='y', labelcolor='steelblue')
 
-    fig.suptitle('Frecuencia de Días de Atraso y Tasa de Promesa de Pago')
-    fig.legend(loc='upper right')
-    st.pyplot(fig)
+        ax2 = ax1.twinx()
+        ax2.plot(grupo_filtrado['bin_centro'], grupo_filtrado['tasa_promesa'], color='red', marker='o', label='Tasa de Promesa')
+        ax2.set_ylabel('Tasa de Promesa de Pago', color='red')
+        ax2.tick_params(axis='y', labelcolor='red')
+        ax2.set_ylim(0, 0.5)  # escalar para evitar picos falsos
 
-    tasa_max = grupo_filtrado['tasa_promesa'].max()
-    tasa_min = grupo_filtrado['tasa_promesa'].min()
+        fig.suptitle('Frecuencia de Días de Atraso y Tasa de Promesa de Pago')
+        fig.legend(loc='upper right')
+        st.pyplot(fig)
 
-    st.markdown(
-    f"""
-    La tasa de promesa alcanza hasta **{tasa_max:.1%}** y puede caer a valores tan bajos como **{tasa_min:.1%}**.  
-    Esto sugiere que cuanto más pronto se contacta al cliente, **mayor es la efectividad de la llamada**.
-    """)
+        tasa_max = grupo_filtrado['tasa_promesa'].max()
+        tasa_min = grupo_filtrado['tasa_promesa'].min()
+    with st.popover("Interpretación"):
+            st.markdown(
+            f"""
+            La tasa de promesa alcanza hasta **{tasa_max:.1%}** y puede caer a valores tan bajos como **{tasa_min:.1%}**.  
+            Esto sugiere que cuanto más pronto se contacta al cliente, **mayor es la efectividad de la llamada**.
+            """)
 
-    ###############SECCIÓN 2 
-elif seccion == "Recomendador de Interacciones con Clientes":
-    st.title("Recomendador de Interacciones con Clientes")
+############### SECCIÓN 2: RECOMENDADOR DE INTERACCIONES ###############
+elif seccion == "Sistema de recomendación":
+    st.title("Sistema de recomendación")
 
-    df.columns = df.columns.str.strip() ###############
+    df.columns = df.columns.str.strip()
     df_model_original = df.copy()
     df_model = df.dropna(subset=['Promesa_de_Pago']).copy()
-    df_model.columns = df_model.columns.str.strip()
-    df_model_original.columns = df_model_original.columns.str.strip()
 
     for col in ['Voz', 'Intensidad', 'Prompt', 'Dia_Semana', 'Rango_Hora']:
         df_model[col] = df_model[col].fillna("desconocido")
@@ -195,8 +233,6 @@ elif seccion == "Recomendador de Interacciones con Clientes":
 
     df_model['Saldo_vencido'] = df_model['Saldo_vencido'].fillna(0)
     df_model['Dias_de_atraso'] = df_model['Dias_de_atraso'].fillna(0)
-    df_model.rename(columns=lambda x: x.strip(), inplace=True)
-    df_model_original.rename(columns=lambda x: x.strip(), inplace=True)
 
     X = df_model[['Voz', 'Intensidad', 'Prompt', 'Dia_Semana', 'Rango_Hora', 'Saldo_vencido', 'Dias_de_atraso']]
     y = df_model['Promesa_de_Pago']
@@ -205,16 +241,20 @@ elif seccion == "Recomendador de Interacciones con Clientes":
     model = RandomForestClassifier(n_estimators=100, random_state=42)
     model.fit(X_train, y_train)
 
-    # Selección de cliente
-    cliente_ids = df_model_original['ID Ally'].dropna().astype(str).unique()
-    opcion = st.radio("¿Cómo quieres ingresar el ID del cliente?", ["Seleccionar de lista", "Escribir manualmente"])
+    # RECOMENDACIÓN POR CLIENTE 
 
-    if opcion == "Seleccionar de lista":
-        cliente_id = st.selectbox("Selecciona un ID de cliente", cliente_ids)
-    else:
-        cliente_id = st.text_input("Escribe el ID del cliente")
+    col1, col2 = st.columns([1, 2])
 
-    # Recomendación individual
+    with col1:
+        opcion = st.radio("Tipo de entrada:", ["Seleccionar de lista", "Escribir manualmente"])
+
+    with col2:
+        cliente_ids = df_model_original['ID Ally'].dropna().astype(str).unique()
+        if opcion == "Seleccionar de lista":
+            cliente_id = st.selectbox("Selecciona un ID de cliente", cliente_ids)
+        else:
+            cliente_id = st.text_input("Escribe el ID del cliente")
+
     if cliente_id:
         def recomendar_para_cliente(cliente_id):
             cliente = df_model_original[df_model_original['ID Ally'].astype(str) == str(cliente_id)]
@@ -237,29 +277,24 @@ elif seccion == "Recomendador de Interacciones con Clientes":
             mejor = df_combos.sort_values(by='prob', ascending=False).iloc[0]
 
             return {
-                "Probabilidad estimada": round(mejor['prob'], 4),
-                "Día recomendado": label_encoders['Dia_Semana'].inverse_transform([int(mejor['Dia_Semana'])])[0],
-                "Rango horario recomendado": label_encoders['Rango_Hora'].inverse_transform([int(mejor['Rango_Hora'])])[0],
-                "Voz recomendada": label_encoders['Voz'].inverse_transform([int(mejor['Voz'])])[0],
-                "Intensidad recomendada": label_encoders['Intensidad'].inverse_transform([int(mejor['Intensidad'])])[0],
-                "Prompt recomendado": label_encoders['Prompt'].inverse_transform([int(mejor['Prompt'])])[0]
+                "*Probabilidad estimada*": round(mejor['prob'], 4),
+                "*Día recomendado*": label_encoders['Dia_Semana'].inverse_transform([int(mejor['Dia_Semana'])])[0],
+                "*Rango horario recomendado*": label_encoders['Rango_Hora'].inverse_transform([int(mejor['Rango_Hora'])])[0],
+                "*Voz recomendada*": label_encoders['Voz'].inverse_transform([int(mejor['Voz'])])[0],
+                "*Intensidad recomendada*": label_encoders['Intensidad'].inverse_transform([int(mejor['Intensidad'])])[0],
+                "*Prompt recomendado*": label_encoders['Prompt'].inverse_transform([int(mejor['Prompt'])])[0]
             }
 
-        st.subheader(" Recomendación Individual")
         resultado = recomendar_para_cliente(cliente_id)
+        st.subheader(" Recomendación Individual")
         if isinstance(resultado, dict):
             for k, v in resultado.items():
                 st.write(f"**{k}**: {v}")
         else:
             st.warning(resultado)
 
-
-        ######
-
-
-        # Top 5 recomendaciones únicas para el cliente seleccionado
-        st.subheader("Top 5 Recomendaciones Únicas")
-
+        # TOP 5 RECOMENDACIONES UNICAS
+        st.subheader(" Top 5 Recomendaciones Únicas")
         estrategias = [
             (voz, intensidad, prompt, dia, hora)
             for voz in df_model_original['Voz'].dropna().unique()
@@ -268,7 +303,6 @@ elif seccion == "Recomendador de Interacciones con Clientes":
             for dia in df_model_original['Dia_Semana'].dropna().unique()
             for hora in df_model_original['Rango_Hora'].dropna().unique()
         ]
-
         estrategias_df = pd.DataFrame(estrategias, columns=['Voz', 'Intensidad', 'Prompt', 'Dia_Semana', 'Rango_Hora'])
         for col in estrategias_df.columns:
             estrategias_df[col] = label_encoders[col].transform(estrategias_df[col])
@@ -277,19 +311,15 @@ elif seccion == "Recomendador de Interacciones con Clientes":
         if not cliente.empty:
             cliente = cliente.iloc[-1]
             saldo = cliente.get('Saldo_vencido', 0)
-            
             atraso = cliente.get('Dias_de_atraso', 0)
 
             cliente_df = estrategias_df.copy()
             cliente_df['Saldo_vencido'] = saldo
             cliente_df['Dias_de_atraso'] = atraso
-
-            
             cliente_df = cliente_df[X_train.columns]
-
             cliente_df['probabilidad'] = model.predict_proba(cliente_df)[:, 1]
-            cliente_df_sorted = cliente_df.sort_values(by='probabilidad', ascending=False).copy()
 
+            cliente_df_sorted = cliente_df.sort_values(by='probabilidad', ascending=False).copy()
             usados = defaultdict(set)
             top5_unicos = []
 
@@ -321,10 +351,11 @@ elif seccion == "Recomendador de Interacciones con Clientes":
 
             df_recomendaciones_unicas = pd.DataFrame(recomendaciones_unicas)
             st.dataframe(df_recomendaciones_unicas)
-  
-        ######
-        st.header("2. Recomendaciones agregadas por día")
 
+    # BLOQUE: RECOMENDACIONES AGREGADAS
+    from collections import defaultdict
+
+    with st.expander(" Recomendaciones agregadas por día (niveladas con hasta 3 por cliente)"):
         estrategias = list(product(
             df_model_original['Voz'].dropna().unique(),
             df_model_original['Intensidad'].dropna().unique(),
@@ -333,70 +364,80 @@ elif seccion == "Recomendador de Interacciones con Clientes":
             df_model_original['Rango_Hora'].dropna().unique()
         ))
         estrategias_df = pd.DataFrame(estrategias, columns=['Voz', 'Intensidad', 'Prompt', 'Dia_Semana', 'Rango_Hora'])
+        
         for col in estrategias_df.columns:
             estrategias_df[col] = label_encoders[col].transform(estrategias_df[col])
 
-        recomendaciones = []
-        for client_id_agg in df_model_original['ID Ally'].dropna().unique(): # Changed variable name to avoid conflict
-            cliente_agg = df_model_original[df_model_original['ID Ally'] == client_id_agg].iloc[0]
-            saldo_agg = cliente_agg.get('Saldo_vencido', 0)
-            
-            atraso_agg = cliente_agg.get('Dias_de_atraso', 0)
+        recomendaciones_expandida = []
 
-            cliente_df_agg = estrategias_df.copy()
-            cliente_df_agg['Saldo_vencido'] = saldo_agg
-            cliente_df_agg['Dias_de_atraso'] = atraso_agg 
+        for client_id in df_model_original['ID Ally'].dropna().unique():
+            cliente = df_model_original[df_model_original['ID Ally'] == client_id].iloc[-1]
+            saldo = cliente.get('Saldo_vencido', 0)
+            atraso = cliente.get('Dias_de_atraso', 0)
 
-            
-            cliente_df_agg = cliente_df_agg[X_train.columns] 
+            cliente_df = estrategias_df.copy()
+            cliente_df['Saldo_vencido'] = saldo
+            cliente_df['Dias_de_atraso'] = atraso
+            cliente_df = cliente_df[X_train.columns]
+            cliente_df['probabilidad'] = model.predict_proba(cliente_df)[:, 1]
+            cliente_df['ID Ally'] = client_id
 
-            probs_agg = model.predict_proba(cliente_df_agg)[:, 1] 
-            max_idx_agg = probs_agg.argmax()
-            mejor_agg = estrategias[max_idx_agg] 
+            top5 = cliente_df.sort_values(by='probabilidad', ascending=False).head(5)
 
-            recomendaciones.append({
-                'ID Ally': client_id_agg,
-                'probabilidad_estimada': round(probs_agg[max_idx_agg], 4),
-                'dia_recomendado': mejor_agg[3],
-                'rango_hora_recomendado': mejor_agg[4],
-                'voz_recomendada': mejor_agg[0],
-                'intensidad_recomendada': mejor_agg[1],
-                'prompt_recomendado': mejor_agg[2]
-            })
+            # Tomar hasta 3 del top 5
+            recomendaciones_expandida.extend(top5.head(3).to_dict('records'))
 
-        df_recomendaciones = pd.DataFrame(recomendaciones)
-        llamadas_por_dia = df_recomendaciones['dia_recomendado'].value_counts().sort_index()
-        st.subheader("Cantidad de llamadas por día")
+        df_recomendaciones = pd.DataFrame(recomendaciones_expandida)
+
+        # Invertir codificación
+        for col in ['Voz', 'Intensidad', 'Prompt', 'Dia_Semana', 'Rango_Hora']:
+            df_recomendaciones[col] = label_encoders[col].inverse_transform(df_recomendaciones[col].astype(int))
+
+        # Contar por día
+        llamadas_por_dia = df_recomendaciones['Dia_Semana'].value_counts().sort_index()
+
+        st.subheader(" Cantidad de llamadas niveladas por día")
         st.bar_chart(llamadas_por_dia)
 
-        ids_por_dia = df_recomendaciones.groupby('dia_recomendado')['ID Ally'].apply(list).to_dict()
+        # Mostrar tabla de IDs por día
+        ids_por_dia = df_recomendaciones.groupby('Dia_Semana')['ID Ally'].apply(list).to_dict()
         tabla_ids = pd.DataFrame(dict([(k, pd.Series(v)) for k, v in ids_por_dia.items()]))
-        st.subheader("Tabla de IDs por día")
+        st.subheader(" Tabla de IDs por día")
         st.dataframe(tabla_ids)
-        
-        st.title("Efectividad de llamadas por aliada")
-        
-        
+
+            # Nivelar exactamente la misma cantidad por día
+        llamadas_por_dia = df_recomendaciones['Dia_Semana'].value_counts()
+        minimo_por_dia = llamadas_por_dia.min()
+
+        # Muestreo nivelado
+        df_nivelado = (
+            df_recomendaciones.groupby('Dia_Semana')
+            .apply(lambda x: x.sample(minimo_por_dia, random_state=42))
+            .reset_index(drop=True)
+        )
+
+        st.subheader("Llamadas niveladas: mismo número por día")
+        st.bar_chart(df_nivelado['Dia_Semana'].value_counts().sort_index())
+
+        ids_nivelados = df_nivelado.groupby('Dia_Semana')['ID Ally'].apply(list).to_dict()
+        tabla_ids_nivelada = pd.DataFrame(dict([(k, pd.Series(v)) for k, v in ids_nivelados.items()]))
+        st.dataframe(tabla_ids_nivelada)
+
+
+
+    # BLOQUE: EFECTIVIDAD POR ALIADA 
+    with st.expander(" Efectividad de llamadas por aliada"):
         try:
             df_contacto_filtrado = pd.read_csv("df_contacto_filtrado.csv")
         except Exception as e:
-            st.error(f"Error al cargar df_contacto_filtrado.csv: {e}. Asegúrate de que el archivo existe en la ruta correcta.")
+            st.error(f"Error al cargar df_contacto_filtrado.csv: {e}.")
             st.stop()
 
-        
         df_contacto_filtrado.rename(columns={"ID Ally": "ID Aliada"}, inplace=True)
         df_contacto_filtrado.columns = df_contacto_filtrado.columns.str.strip()
-
-
-        df_contacto_filtrado["Promesa_de_Pago"] = df_contacto_filtrado["Tipificaciones"].apply(
-            lambda x: 1 if x == "1. Promesa de pago" else 0
-        )
-        df_contacto_filtrado["Ya_Pagaron"] = df_contacto_filtrado["Tipificaciones"].apply(
-            lambda x: 1 if x == "4. Cliente Ya Pago" else 0
-        )
-        df_contacto_filtrado["Buzon"] = df_contacto_filtrado["Tipificaciones"].apply(
-            lambda x: 1 if x == "2. Usuario colgo la llamada" else 0
-        )
+        df_contacto_filtrado["Promesa_de_Pago"] = df_contacto_filtrado["Tipificaciones"].apply(lambda x: 1 if x == "1. Promesa de pago" else 0)
+        df_contacto_filtrado["Ya_Pagaron"] = df_contacto_filtrado["Tipificaciones"].apply(lambda x: 1 if x == "4. Cliente Ya Pago" else 0)
+        df_contacto_filtrado["Buzon"] = df_contacto_filtrado["Tipificaciones"].apply(lambda x: 1 if x == "2. Usuario colgo la llamada" else 0)
 
         df_llamadas_por_aliada = df_contacto_filtrado.groupby("ID Aliada").agg(
             Llamadas=('Tipificaciones', 'count'),
@@ -404,7 +445,7 @@ elif seccion == "Recomendador de Interacciones con Clientes":
             Ya_Pagaron=('Ya_Pagaron', 'sum'),
             Buzon=('Buzon', 'sum')
         ).reset_index()
-        
+
         df_agrupado_por_llamadas = df_llamadas_por_aliada.groupby("Llamadas").agg(
             Promesas=('Promesas', 'sum'),
             Ya_Pagaron=('Ya_Pagaron', 'sum'),
@@ -413,33 +454,13 @@ elif seccion == "Recomendador de Interacciones con Clientes":
 
         min_llamadas = int(df_agrupado_por_llamadas.index.min())
         max_llamadas = int(df_agrupado_por_llamadas.index.max())
-
         rango = st.slider("Selecciona el rango de llamadas por aliada:", min_llamadas, max_llamadas, (min_llamadas, max_llamadas))
-
         df_filtrado_efectividad = df_agrupado_por_llamadas.loc[rango[0]:rango[1]]
 
-        
-        import plotly.graph_objects as go
-
         fig = go.Figure()
-        fig.add_trace(go.Bar(
-            x=df_filtrado_efectividad.index,
-            y=df_filtrado_efectividad["Promesas"],
-            name="Promesa de pago",
-            marker_color="#0B1793"
-        ))
-        fig.add_trace(go.Bar(
-            x=df_filtrado_efectividad.index,
-            y=df_filtrado_efectividad["Ya_Pagaron"],
-            name="Ya pagó",
-            marker_color="#577BD5"
-        ))
-        fig.add_trace(go.Bar(
-            x=df_filtrado_efectividad.index,
-            y=df_filtrado_efectividad["Buzon"],
-            name="Buzón",
-            marker_color="#479AFF"
-        ))
+        fig.add_trace(go.Bar(x=df_filtrado_efectividad.index, y=df_filtrado_efectividad["Promesas"], name="Promesa de pago", marker_color="#0B1793"))
+        fig.add_trace(go.Bar(x=df_filtrado_efectividad.index, y=df_filtrado_efectividad["Ya_Pagaron"], name="Ya pagó", marker_color="#577BD5"))
+        fig.add_trace(go.Bar(x=df_filtrado_efectividad.index, y=df_filtrado_efectividad["Buzon"], name="Buzón", marker_color="#479AFF"))
 
         fig.update_layout(
             barmode='stack',
@@ -449,48 +470,58 @@ elif seccion == "Recomendador de Interacciones con Clientes":
             legend_title="Resultado",
             template="plotly_white"
         )
-
         st.plotly_chart(fig, use_container_width=True)
 
-        st.title("Análisis de Costo por Llamada")
-
-        # Cargar el dataset de llamadas con costo
+    with st.expander(" Análisis de Costo por Llamada"):
         try:
             df_llamadas_costo = pd.read_csv("df_llamadas_costo.csv")
             df_llamadas_costo.columns = df_llamadas_costo.columns.str.strip()
         except Exception as e:
-            st.error(f"Error al cargar df_llamadas_costo.csv: {e}. Asegúrate de que el archivo existe en la ruta correcta.")
+            st.error(f"Error al cargar df_llamadas_costo.csv: {e}.")
             st.stop()
 
-        # Calcular costo por llamada según tipificación
+        # Calcular el costo por llamada según la tipificación
         def costo_por_llamada_fijo(row):
-            if row["Tipificaciones"] == "2. Usuario colgo la llamada":
+            if row["Tipificaciones"] == "3. Contacto no definido":
                 return 0.024
-            elif row["Tipificaciones"] == "3. Contacto no definido":
-                return 0.000
             else:
                 return 0.049
 
         df_llamadas_costo["Costo por llamada"] = df_llamadas_costo.apply(costo_por_llamada_fijo, axis=1)
         df_llamadas_costo["Costo Total"] = df_llamadas_costo["Costo por llamada"]
+        df_llamadas_costo["Buzon"] = df_llamadas_costo["Tipificaciones"].apply(
+            lambda x: 1 if x == "3. Contacto no definido" else 0
+        )
+        df_llamadas_costo["Otras"] = df_llamadas_costo["Tipificaciones"].apply(
+            lambda x: 1 if x not in ["3. Contacto no definido"] else 0
+        )                        
+        # Agrupar por ID Ally y Campo 2
+        detalle_por_aliada = df_llamadas_costo.groupby(["ID Ally", "Campo 2"]).agg({
+            "Minutos": "sum",
+            "Costo Total": "sum",
+            "Tipificaciones": "count",
+            "Buzon": "sum",
+            "Otras": "sum"
+        }).rename(columns={"Tipificaciones": "Número de llamadas"})
 
-        # Crear columnas de conteo por tipo de llamada
-        df_llamadas_costo["Buzon"] = (df_llamadas_costo["Tipificaciones"] == "2. Usuario colgo la llamada").astype(int)
-        df_llamadas_costo["No_Definido"] = (df_llamadas_costo["Tipificaciones"] == "3. Contacto no definido").astype(int)
-        df_llamadas_costo["Otras"] = (~df_llamadas_costo["Tipificaciones"].isin(["2. Usuario colgo la llamada", "3. Contacto no definido"])).astype(int)
-
-        # Agrupar por ID Aliada y Campo 2 con desglose
-        detalle_por_aliada = df_llamadas_costo.groupby(["ID Ally", "Campo 2"], dropna=False).agg(
-            Minutos=('Minutos', 'sum'),
+        # Agrupar por Campo 2
+        resumen_por_campo2 = df_llamadas_costo.groupby("Campo 2").agg(
             Costo_Total=('Costo Total', 'sum'),
-            Numero_llamadas=('Tipificaciones', 'count'),
-            Buzon=('Buzon', 'sum'),
-            No_Definido=('No_Definido', 'sum'),
-            Otras=('Otras', 'sum')
+            Numero_llamadas=('ID Ally', 'count')
         ).reset_index()
 
-        st.subheader("Detalle de costo por aliada")
-        st.dataframe(detalle_por_aliada)
+        # Mostrar ambas tablas con pestañas
+        tab1, tab2 = st.tabs(["Detalle por aliada", "Resumen por Campo 2"])
 
-    else:
-        st.warning("Por favor, selecciona un ID de cliente para ver las recomendaciones.")
+        with tab1:
+            st.dataframe(detalle_por_aliada.style.format({
+                "Costo_Total": "${:,.2f}",
+                "Minutos": "{:.2f}",
+                "Numero_llamadas": "{:,}"
+            }), use_container_width=True)
+
+        with tab2:
+            st.dataframe(resumen_por_campo2.style.format({
+                "Costo_Total": "${:,.2f}",
+                "Numero_llamadas": "{:,}"
+            }), use_container_width=True)
